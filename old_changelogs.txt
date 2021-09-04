@@ -1,0 +1,111 @@
+0.1.9 Release
+- buffed ogre fungus defense from 20% to 30% (except for chariots)
+- added the marksman special to the ogre mancatcher line's ranged attack (so it's easier to finish off enemies)
+- nerfed gnoll fire resistance from 0% to -10%
+- made a new willbreak attack animation for the serpent tarhan line
+- added a simple leadership animation to serpent tumenbashi/serpent khagan
+- added a simple floating animation to lvl2/lvl3 tarbynns
+- the serpentheads' black fire attack is now slightly blacker
+- the serpentheads' black fire attack now has a different animation when missing (as having the hit/miss anims be identical was a bit annoying)
+- added new icons for tumenbashi/khagan's crush will/enslave attacks
+- translated the serpent tarhan/tumenbashi/khagan's description into english
+- translated the greyblade's description into english
+- translated the gnoll biter's description into english
+- translated the nuckelavee's description into english
+- translated the slave bowman's description into english
+- fixed the disloyal calculator not showing the level properly
+- fixed the disloyal calculator not showing oversight properly
+
+0.1.8 Release
+- the capture ability now move the captured unit behind the capturer
+- added a disloyal calculator rightclick menu (works like the slave calculator)
+- added a captured calculator rightclick menu (works like the slave calculator)
+- cages from the capture ability now scale to the unit's size (using Lua)
+- fixed trample not triggering non-pillage moveto events properly
+
+0.1.7 Release
+- slaves now have their own race: southern humans (mostly just to give them dunefolk names instead of default human ones)
+- added the option (in match settings) to enable halo for units with oversight/khagan's presence that visually shows the abilities' radius
+- added the option (in match settings) to disable camera movement that happens when a village is burned
+- the slave calculator now takes into account whether the current side is the khaganate, and will show that they cannot free enemy slaves
+- buffed slaves' forest defense from 40% to 50%
+- buffed slave spearman's damage from 6-2 to 7-2 (the advancements also got their damaged buffed by 1)
+- buffed gnoll's pierce/impact resistances from 0% to 10%
+- buffed greyblade's cost from 19 to 18
+- nerfed chariot hp from 52 to 50
+- nerfed chariot blade resistance from 30% to 20%
+- the capture ability now triggers on-kill events when selling units (otherwise selliing units could likely break some scenarios), except for the on-kill abilities like disloyal.
+- the ogre mancatcher line no longer uses mainline ogre portraits, as they really didn't fit the unit, and the other ogre lines don't use it anymore
+
+0.1.6 Release
+- redesigned the slave calculator menu
+- added an easter egg unit only accessible through debug
+- added attack/defend/leadership animations for naga overseer (contributed by Tezereth)
+- added scimitar attack/defend animations for naga punisher (contributed by Tezereth)
+- added attack/defend animations for naga bekh (contributed by Tezereth)
+- added attack animation for naga beklarbekh (contributed by Tezereth)
+- added defend animation for slave infantry (contributed by Tezereth)
+- buffed the capture ability's gold from 125% of the unit's cost to 133%
+- buffed nuckelavee's forest/deep water/cave/fungus movement costs (reduced by 1 each), and increased fungus defense from 20% to 30% 
+- nerfed bull's hp from 47 to 45, and tribal bull's hp from 70 to 68
+- the overwhelm weapon special now fully disables the enemy attack instead of setting its strikes to 0 (as otherwise it could be abused against berserkers)
+- if you somehow get a darkens ability (from another addon), it will now make vampires stay in night form while the area is darkened
+- fixed enslaved units being able to move/attack on the same turn as they were enslaved
+- fixed the disloyal description being incorrect
+
+0.1.5 Release
+- added a rightclick menu that lets you whether a slave can be freed or not
+- added attack animations for slave infantry (contributed by Tezereth)
+- nerfed chariot price from 20 to 22
+- slaves are now worth 0.5 levels for levels calculations (this is so they are a bit harder to free)
+- fixed the enslave ability being able to enslave units of any level
+- fixed the old the old slave code counting allies as enemies, and enemies as allies
+- fixed trampling chariots "bouncing" off mountains/walls
+- bats/falcons can no longer free slaves
+
+0.1.4d Release
+- bulls/monsters/wolves can no longer free slaves
+
+0.1.4c Release
+- fixed oversight/khagan's presence abilities working on enemy slaves/disloyal units
+- fixed the paralyze ability not working properly for vampires
+- small AI improvements
+
+0.1.4b Release
+- fixed incorrect slave freeing radius
+
+0.1.4 Release
+- nerfed the village gold from the pillage ability by 25% (from 4 times the village income to 3 times the village income)
+- nerfed lvl1 chariot's trample damage from 13-1 to 11-1, and lvl2 chariot's trample damage from 20-1 to 17-1
+- nerfed the ogre grunt's cost from 14 to 15
+- buffed serpenhead tarhan's price from 22 to 21
+- slightly reduced exp requirements for the following units: ogre hunter, ogre mancatcher, ogre slaver's apprentice, ogre shaman, ogre bull priest, naga overseer
+- the oversight/khagan's presence abilities no longer work while the unit is captured
+- the enslave ability's description now specifies that enslaving an enemy leader enslaves his other units
+- the AI will no longer attack prisoners
+- fixed the capture ability description not specifying the level requirements in the english version, and specifiying the incorrect radius in the russian version
+- fixed enslaved overseers "overseeing" themselves (thus not being able to be freed)
+
+0.1.3 Release
+- added custom AI for slaves that makes them stick next to overseers
+- buffed the vampire line's melee damage in day form by 1
+- enslaved/converted units can no longer move/attack on the same turn as being enslaved/converted
+- reverted the nuckelavee price back to the original values
+- fixed trample not triggering the pillage/disloyal abilities (or any other death-related events for that matter)
+- trample now moves the unit more smoothly (the animation used to move the unit to the original tile for a second)
+- removed the "trample!" floating text when using the trample special (as it seems a bit redundant in my opinion)
+
+0.1.2 Release
+- the disloyal ability has been reworked (it's now based on nearby unit levels, similar to freeing slaves, instead of on RNG)
+- slaves/disloyal units can no longer move/attack on the same turn as deserting
+- nerfed the ogre chariot's pierce resistance from 0% to -20%
+- reduced nuckelavee's price from 17 to 16 (and it's advancements are a bit cheaper too)
+- slave archers can now have the dextrous trait
+- fixed the trample ability not destroying villages the unit lands on (as well as any other moveto events, for that matter)
+- a few minor spelling fixes
+
+0.1.1 Release
+added link to forum thread
+
+0.1.0 Release
+the initial alpha release
