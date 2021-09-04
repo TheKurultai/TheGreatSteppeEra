@@ -1,5 +1,7 @@
 local T = wml.tag
 
+local debug_utils = wesnoth.require "~add-ons/1The_Great_Steppe_Era/lua/debug_utils.lua"
+
 local res = {}
 
 res.slow_7mp_leaders = function(args)
@@ -12,8 +14,12 @@ res.slow_7mp_leaders = function(args)
     end
 
     local trait_slow = args[1][2]
-    for i, unit in ipairs(wesnoth.get_units { canrecruit = true, T.filter_wml { max_moves = 7 } }) do
-        if not unit.variables.dont_make_me_slow then
+
+--    debug_utils.dbms(args[1][2], true, "arguments", true)
+
+--    for i, unit in ipairs(wesnoth.get_units { canrecruit = true, T.filter_wml { max_moves = 7 } }) do
+    for i, unit in ipairs(wesnoth.get_units { canrecruit = true, { "not", { trait = args[1][2].id} } }) do
+        if unit.max_moves >= 7 and not unit.variables.dont_make_me_slow then
             wesnoth.add_modification(unit, "trait", trait_slow )
             unit.moves = unit.max_moves
             unit.hitpoints = unit.max_hitpoints
