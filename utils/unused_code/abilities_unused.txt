@@ -986,3 +986,20 @@ layer=overlay
     [+attack]
     [+specials]
 #enddef
+
+#define WEAPON_SPECIAL_DISTANT_ATTACK NUMBER
+#currently unused
+    [chance_to_hit]
+        id=distant_attack
+        name= _ "distant attack {NUMBER}"
+        name_inactive= _ "distant attack {NUMBER}"
+        description= _ "This attack has a large range, and thus the enemies can barely see it, having their aim drop in retaliation by {NUMBER}%."# if the defender's weapon has this trait too, the fight will be as usual."
+        description_inactive= _ "This attack has a large range, and thus the enemies can barely see it, having their aim drop in retaliation by {NUMBER}%."# if the defender's weapon has this trait too, the fight will be as usual."
+        add=-{NUMBER}
+        active_on=offense
+        apply_to=opponent
+        [filter_base_value]
+            greater_than=30
+        [/filter_base_value]
+    [/chance_to_hit]
+#enddef

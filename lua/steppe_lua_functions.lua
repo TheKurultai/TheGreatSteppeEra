@@ -57,22 +57,23 @@ function steppe_attach_unit_status_renderer()
         end
       end
 
-      if steppe_has_ability(u, "adaptive_armor") == true then
-  
-       local russian_enabled = wesnoth.get_variable("steppe_hunntext_russian_enabled")
-  
-        if russian_enabled then
-        table.insert(s, { "element", {
-          text = "Адаптивная Броня: ".. (u.variables.adaptive_armor_stacks and (tostring(u.variables.adaptive_armor_stacks)) or "0"),
-          tooltip = "Количество адаптивной брони которую этот юнит накопил. Важно для других способнотей как например 'апаптивный щит'"
-        } })
-        else
-        table.insert(s, { "element", {
-          text = "Adapative Armor: ".. (u.variables.adaptive_armor_stacks and (tostring(u.variables.adaptive_armor_stacks)) or "0"),
-          tooltip = "Amount of adaptive armor this unit currently has (used for other abilities like 'adaptive shield')"
-        } })
-        end
-      end
+--not really needed at the moment, as adaptive strike is unused
+--      if steppe_has_ability(u, "adaptive_armor") == true then
+--  
+--       local russian_enabled = wesnoth.get_variable("steppe_hunntext_russian_enabled")
+--  
+--        if russian_enabled then
+--        table.insert(s, { "element", {
+--          text = "Адаптивная Броня: ".. (u.variables.adaptive_armor_stacks and (tostring(u.variables.adaptive_armor_stacks)) or "0"),
+--          tooltip = "Количество адаптивной брони которую этот юнит накопил. Важно для других способнотей как например 'апаптивный щит'"
+--        } })
+--        else
+--        table.insert(s, { "element", {
+--          text = "Adapative Armor: ".. (u.variables.adaptive_armor_stacks and (tostring(u.variables.adaptive_armor_stacks)) or "0"),
+--          tooltip = "Amount of adaptive armor this unit currently has (used for other abilities like 'adaptive shield')"
+--        } })
+--        end
+--      end
 
       if steppe_has_ability(u, "duel") == true then
         if u.variables.duel_turns_left and u.variables.duel_turns_left > 0 then
@@ -92,6 +93,27 @@ function steppe_attach_unit_status_renderer()
           end
         end
       end
+
+
+      if steppe_has_ability(u, "idol_buff") == true then
+        if u.variables.idolbuff_turns_left and u.variables.idolbuff_turns_left > 0 then
+  
+       local russian_enabled = wesnoth.get_variable("steppe_hunntext_russian_enabled")
+  
+          if russian_enabled then
+          table.insert(s, { "element", {
+            text = "Ходы идола: ".. (u.variables.idolbuff_turns_left and (tostring(u.variables.idolbuff_turns_left)) or "0"),
+            tooltip = "Колечество ходов после которых бонус урона от идола исчезает"
+          } })
+          else
+          table.insert(s, { "element", {
+            text = "Idol turns left: ".. (u.variables.idolbuff_turns_left and (tostring(u.variables.idolbuff_turns_left)) or "0"),
+            tooltip = "Number of turns until the damage bonus from an idol wears off"
+          } })
+          end
+        end
+      end
+
 
     end
     return s

@@ -24,10 +24,10 @@ function wesnoth.custom_synced_commands.longrange_attack(cfg)
 end
 
 
-function longrange_get_species(cfg)
+function longrange_get_range(cfg)
     local abilities = wml.get_child(cfg.__cfg, "abilities")
-    local longrange_ability = wml.get_child(abilities, "longrange")
-    return longrange_ability.species
+    local longrange_ability = wml.get_child(abilities, "longrange_range")
+    return longrange_ability.range
 end
 
 function ca_longrange:evaluation()
@@ -50,7 +50,7 @@ function ca_longrange:evaluation()
                 local filter_second = { { "filter_side", { { "enemy_of", { side = wesnoth.current.side } } } } }
                 local enemies = AH.get_live_units {
                     { "and", filter_second },
-                    { "filter_location", { x = u.x, y = u.y, radius = 3 } },
+                    { "filter_location", { x = u.x, y = u.y, radius = longrange_get_range(u) } },
                     { "filter_vision", { side = wesnoth.current.side, visible = 'yes' } }
                 }
                         
