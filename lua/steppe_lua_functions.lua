@@ -1,3 +1,6 @@
+--#textdomain wesnoth-gse
+_ = wesnoth.textdomain "wesnoth-gse"
+
 -- NOTE: this check the ability TAG, not ability id
 function steppe_has_ability(unit, ability)
     -- Returns true/false depending on whether unit has the given ability
@@ -18,41 +21,23 @@ function steppe_attach_unit_status_renderer()
 --        wesnoth.message("unit exists check passed")
       if steppe_has_ability(u, "devourer_of_souls") == true then
   
-       local russian_enabled = wesnoth.get_variable("steppe_hunntext_russian_enabled")
-  
-        if russian_enabled then
         table.insert(s, { "element", {
-          text = "Собранные Души: ".. (u.variables.collected_souls and (tostring(u.variables.collected_souls)) or "0"),
-          tooltip = "Души собранные этим бойцом для способности 'пожиратель душ'"
+          text = _"Collected Souls: ".. (u.variables.collected_souls and (tostring(u.variables.collected_souls)) or "0").."\n",
+          tooltip = _"The souls this unit collects are used for the 'devourer of souls' ability"
         } })
-        else
-        table.insert(s, { "element", {
-          text = "Collected Souls: ".. (u.variables.collected_souls and (tostring(u.variables.collected_souls)) or "0"),
-          tooltip = "The souls this unit collects are used for the 'devourer of souls' ability"
-        } })
-        end
       end
 
       if steppe_has_ability(u, "birther_of_fiends") == true then
         if u.variables.birthturns and u.variables.birthturns > 0 then
   
-         local russian_enabled = wesnoth.get_variable("steppe_hunntext_russian_enabled")
-
          local birthtext_disabled = wesnoth.get_variable("steppe_disable_birthturntext")
 
           if birthtext_disabled ~= "yes" then
   
-            if russian_enabled then
             table.insert(s, { "element", {
-              text = "Ходы до рождения: ".. (u.variables.birth_turns_left and (tostring(u.variables.birth_turns_left))),
-              tooltip = "Количество ходов до того как канавара рождается и добавляется в список призыва"
+              text = _"Turns until birth: ".. (u.variables.birth_turns_left and (tostring(u.variables.birth_turns_left))).."\n",
+              tooltip = _"Number of turns until a kanavar is birthed and added to the recall list"
             } })
-            else
-            table.insert(s, { "element", {
-              text = "Turns until birth: ".. (u.variables.birth_turns_left and (tostring(u.variables.birth_turns_left))),
-              tooltip = "Number of turns until a kanavar is birthed and added to the recall list"
-            } })
-            end
           end
         end
       end
@@ -75,45 +60,96 @@ function steppe_attach_unit_status_renderer()
 --        end
 --      end
 
-      if steppe_has_ability(u, "duel") == true then
-        if u.variables.duel_turns_left and u.variables.duel_turns_left > 0 then
-  
-       local russian_enabled = wesnoth.get_variable("steppe_hunntext_russian_enabled")
-  
-          if russian_enabled then
-          table.insert(s, { "element", {
-            text = "Ходы вдохновления: ".. (u.variables.duel_turns_left and (tostring(u.variables.duel_turns_left)) or "0"),
-            tooltip = "Колечество ходов после которых вдохноление от способности 'поединок' исчезает"
-          } })
-          else
-          table.insert(s, { "element", {
-            text = "Inspiration turns left: ".. (u.variables.duel_turns_left and (tostring(u.variables.duel_turns_left)) or "0"),
-            tooltip = "Number of turns until the inspiration from the 'duel' ability wears off"
-          } })
-          end
-        end
-      end
+--      if steppe_has_ability(u, "duel") == true then
+--        if u.variables.duel_turns_left and u.variables.duel_turns_left > 0 then
+--  
+--          table.insert(s, { "element", {
+--            text = _"Inspiration turns left: ".. (u.variables.duel_turns_left and (tostring(u.variables.duel_turns_left)) or "0").."\n",
+--            tooltip = _"Number of turns until the inspiration from the 'duel' ability wears off"
+--          } })
+--        end
+--      end
 
 
       if steppe_has_ability(u, "idol_buff") == true then
         if u.variables.idolbuff_turns_left and u.variables.idolbuff_turns_left > 0 then
   
-       local russian_enabled = wesnoth.get_variable("steppe_hunntext_russian_enabled")
-  
-          if russian_enabled then
           table.insert(s, { "element", {
-            text = "Ходы идола: ".. (u.variables.idolbuff_turns_left and (tostring(u.variables.idolbuff_turns_left)) or "0"),
-            tooltip = "Колечество ходов после которых бонус урона от идола исчезает"
+            text = _"Idol turns left: ".. (u.variables.idolbuff_turns_left and (tostring(u.variables.idolbuff_turns_left)) or "0").."\n",
+            tooltip = _"Number of turns until the damage bonus from an idol wears off"
           } })
-          else
-          table.insert(s, { "element", {
-            text = "Idol turns left: ".. (u.variables.idolbuff_turns_left and (tostring(u.variables.idolbuff_turns_left)) or "0"),
-            tooltip = "Number of turns until the damage bonus from an idol wears off"
-          } })
-          end
         end
       end
 
+      if steppe_has_ability(u, "kingdomfaction") == true or u.variables.faith then
+
+        local faith_name = {}
+        local heresy_name = {}
+
+        local faith = 0
+--        local heresy = 0
+
+        local max_faith = 3
+--        local max_heresy = 4
+
+--        local is_heretic = false
+
+       if u.variables.faith then
+          faith = u.variables.faith
+       end
+
+--for debugging
+       if u.variables.faith > max_faith then
+          faith = 99
+       end
+
+--       if u.variables.faith < 0 then
+--          is_heretic=true
+--          heresy = u.variables.faith * -1
+--
+--          faith = 99
+--       end
+-- 
+--       if heresy > max_heresy then
+--          heresy = 99
+--       end
+
+          faith_name[0] = _"Godless"
+          faith_name[1] = _"Believer"
+          faith_name[2] = _"Faithful"
+          faith_name[3] = _"Pious"
+--          faith_name[4] = "Fanatic"
+          faith_name[99] = _"ERROR: TOO HIGH FAITH"
+
+--          heresy_name[1] = "Godless"
+--          heresy_name[2] = "Sinner"
+--          heresy_name[3] = "Apostate"
+--          heresy_name[4] = "Heretic"
+--          heresy_name[99] = "ERROR: TOO HIGH HERESY"
+
+ --         if heresy > 0 then
+ --         table.insert(s, { "element", {
+ --           text = "Heresy: ".. (heresy and (tostring(heresy)) or "0").." ("..heresy_name[heresy]..")".."\n",
+ --           tooltip = "The unit gains an invisuble backstab-like weapon special that deals 25% more damage per level of heresy. Also, at heresy 3 and higher, the unit becomes chaotic."
+ --         } })
+ --         else
+          table.insert(s, { "element", {
+            text = _"Faith: ".. (u.variables.faith and (tostring(u.variables.faith)) or "0").." ("..faith_name[faith]..")".."\n",
+            tooltip = _"Gives different effects based on faith level:\n".."1 - unit becomes lawful\n".."2 - unit becomes fearless and gains self-unpoison, but also gets pride 15\n".."3 - unit gains the soul fire ability, but also gets pride 25\n"
+          } })
+--         end
+
+
+              if u.variables.faith < max_faith then
+    
+              table.insert(s, { "element", {
+                text = _"Sermons left: ".. (u.variables.sermons_left and (tostring(u.variables.sermons_left)) or "0").."\n",
+                tooltip = _"The amount of sermons until the unit's faith level increases by 1"
+              } })
+    
+              end
+
+      end
 
     end
     return s
@@ -176,7 +212,3 @@ function wesnoth.custom_synced_commands.reset_moves(cfg)
     local unit = wesnoth.get_units { id = cfg.id }[1]
     unit.moves = cfg.moves
 end
-
-
---edit of the AH function so it works for the build CA properly
-
