@@ -1,5 +1,7 @@
 --#textdomain wesnoth-gse
 _ = wesnoth.textdomain "wesnoth-gse"
+debug_utils = wesnoth.require "~add-ons/1The_Great_Steppe_Era/lua/debug_utils.lua"
+
 
 -- NOTE: this check the ability TAG, not ability id
 function steppe_has_ability(unit, ability)
@@ -211,4 +213,109 @@ end
 function wesnoth.custom_synced_commands.reset_moves(cfg)
     local unit = wesnoth.get_units { id = cfg.id }[1]
     unit.moves = cfg.moves
+end
+
+--function steppe_simple_path(x1,y1,x2,y2)--x1,y1 is start, x2,y2 is destination
+--   local destination_reached = false
+--   local current_x,current_y = x1,y1
+--   local path_table = {x = 0, y = 0}
+--   local i = 1
+--
+--    debug_utils.dbms(current_x, true, "current x:", true)
+--
+--
+--   while destination_reached == false do
+--       
+--    current_hex = wesnoth.map.get_direction (current_x,current_y,wesnoth.map.get_relative_dir(current_x,current_y,x2,y2))
+--
+--    debug_utils.dbms(current_hex, true, "current hex:", true)
+--
+--    current_x = current_hex[1]
+--    current_y = current_hex[2]
+--
+--    path_table[i].x = current_hex[1]
+--    path_table[i].y = current_hex[2]
+--
+--    i = i + 1
+--
+--
+--    if current_x == x2 and current_y == y2 then
+--        destination_reached = true
+--    end
+--
+--   end
+--
+--    debug_utils.dbms(path_table, true, "path:", true)
+--
+--   return path_table
+--
+--end
+
+function steppe_check_impassable_between(x1,y1,x2,y2)
+    local found_wall = false
+
+--    local path = steppe_simple_path(x1, y1, x2, y2)
+
+--    local path = steppe_simple_path(x1, y1, x2, y2)
+
+
+--using copy-pasted find path function with custom caclulate so that movescost is ignored
+local max_moves = 99
+local path = wesnoth.find_path(x1, y2, x2, y2, {
+    ignore_units = true,
+    ignore_teleport = true,
+    calculate = function(x, y, current_cost)
+        local remaining_moves = max_moves - (current_cost % max_moves)
+        if remaining_moves < 3 then current_cost = current_cost + remaining_moves end
+        return current_cost + 3
+    end })
+
+    local tile_with_wall
+
+--    debug_utils.dbms(path, true, "path:", true)
+
+    for i in ipairs(path) do
+
+--        wesnoth.message(wesnoth.get_terrain(path[i][1], path[i][2]))
+
+--        debug_utils.dbms(path, true, "path:", true)
+
+        tile_with_wall = wesnoth.get_locations {
+            { "and", { x = path[i][1], y = path[i][2] }},
+            { "and", { terrain = "_off^_usr,X*" } }
+        }
+
+--        debug_utils.dbms(tile_with_wall, true, "tile_with_wall:", true)
+
+
+--if a hile with a wall exists, return true
+        if tile_with_wall[1] then
+            --return a yes value, to show that the unit does have the overlay
+            found_wall = true
+        end
+    end
+
+--    debug_utils.dbms(path, true, "path:", true)
+
+--    debug_utils.dbms(found_wall, true, "found wall:", true)
+
+    return found_wall
+end
+
+function steppe_longrange_filter(unit)
+   local x,y = wesnoth.get_variable("x1"),wesnoth.get_variable("y1")
+--coordinates work flawlessly
+--   wesnoth.message(unit.x)
+--   wesnoth.message(unit.y)
+--   wesnoth.message(x)
+--   wesnoth.message(y)
+
+--    debug_utils.dbms(unit, true, "unit:", true)
+
+   local wall_found = steppe_check_impassable_between(unit.x,unit.y,x,y)
+   if wall_found == true then
+      return false
+   else
+      return true
+   end
 end

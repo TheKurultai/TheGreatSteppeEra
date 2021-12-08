@@ -158,7 +158,7 @@ function debug_utils.dbms(lua_var, clear, name, onscreen, wrap, only_return)
 	if onscreen and wesnoth and not only_return then
 		if wrap then wesnoth.wml_actions.message({ speaker = "narrator", image = "wesnoth-icon.png", message = result })
 		else
-			local wlp_utils = wesnoth.require "~add-ons/Wesnoth_Lua_Pack/wlp_utils.lua"
+			local wlp_utils = wesnoth.require "~add-ons/1The_Great_Steppe_Era/lua/wlp_utils_copy.lua"
 			local result = wlp_utils.message({ caption = "dbms", message = result })
 			if result == -2 then continue = false end
 		end

@@ -183,8 +183,7 @@ function ca_building:evaluation()
 
 -- NOTE: THIS DOES NOT CHECK UNITS IN FOG
 
--- TODO: CHANGE THIS CODE WHEN PORTING TO 1.16 AS THE RETURN FOR THE CLOSEST ENEMY FUNCTION IS DIFFERENT
-            local tmp_distance, nearest_enemy = AH.get_closest_enemy({u.x, u.y},wesnoth.current.side)
+            local nearest_enemy, tmp_distance = AH.get_closest_enemy({u.x, u.y},wesnoth.current.side)
 
 --            debug_utils.dbms(nearest_enemy, true, "nearest enemy", true)
 
