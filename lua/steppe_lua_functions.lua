@@ -137,7 +137,7 @@ function steppe_attach_unit_status_renderer()
  --         else
           table.insert(s, { "element", {
             text = _"Faith: ".. (u.variables.faith and (tostring(u.variables.faith)) or "0").." ("..faith_name[faith]..")".."\n",
-            tooltip = _"Gives different effects based on faith level:\n".."1 - unit becomes lawful\n".."2 - unit becomes fearless and gains self-unpoison, but also gets pride 15\n".."3 - unit gains the soul fire ability, but also gets pride 25\n"
+            tooltip = _"Gives different effects based on faith level:\n 1 - unit becomes lawful and fearless, but gets the pride 15% ability\n 2 - unit gains +1 damage, but gets the pride 25% ability\n 3 - unit gains the soul flame ability\n"
           } })
 --         end
 
