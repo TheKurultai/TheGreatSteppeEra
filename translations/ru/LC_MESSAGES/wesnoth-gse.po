@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-10-26 18:13+0300\n"
+"PO-Revision-Date: 2021-11-01 17:22+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -260,7 +260,7 @@ msgstr "Ошибка: слишком высокий уровень веры"
 #. [lua]: wesnoth.theme_items.unit_weapons
 #: lua/steppe_lua_functions.lua:1448
 msgid "Faith: "
-msgstr "Уровень веры:"
+msgstr "Уровень веры: "
 
 #. [lua]: wesnoth.theme_items.unit_weapons
 #: lua/steppe_lua_functions.lua:1449
@@ -973,7 +973,48 @@ msgstr "Гноллы"
 
 #. [race]: id=steppegnoll
 #: races.cfg:179
-msgid "gnoll race^WIP: NOT YET TRANSLATED"
+msgid ""
+"Gnolls are a race of hyenas walking on two legs from iron-rich hills of "
+"Gravr. In ancient times they were a bunch of savage tribes of hunters and "
+"fishermen who lived in poor shacks in a hilly savannah of their region and "
+"who, just as nagas, practiced pillage. While nagas pillaged the trading "
+"routes which go through the desert between human cities, gnolls prefered "
+"marching on the cities themselves. From obedient cities they received "
+"tribute (which included humans whom gnolls ate), those triying to retain "
+"independence were besieged and stormed. More than one oasis was captured and "
+"pillaged by swarms of hyena-headed savages, many once flourished settlements "
+"were erased from existence and never rose again and piles of half-gnawed "
+"skeletons left in their ruins... But something hindered gnolls - it's their "
+"lack of unity. Tribes speaking at least three dozen different languages were "
+"too proud to unite with anybody - because for uniting you need a common "
+"chief. For gnolls to acknoledge a member of another tribe as a chief means "
+"to diminish dignity of their own tribe, which they deemed unacceptable. They "
+"thought that gnolls of other tribes deserve only being eaten. All of this "
+"was exploited by humans cities, they pitted formidable savages against each "
+"other reducing their numbers and strength. As for relations with other "
+"races, gnolls always considered themselves superior to others and would "
+"never obey outsiders; even as mercenaries they had a reputation of the least "
+"reliable of all. At any moment a gnoll could turn his bone flail-trap and "
+"his claws against a former ally... That was believed until the time when "
+"fluttering banners of the Snake Khanagate appeared in Gravr with the roar of "
+"elephant's tusks trumpets.\n"
+"\n"
+"The lands of Gravr were gifted by the khagan to old naga nobility; by his "
+"highest will bekhs of the hissing with their assembled troops of vassal "
+"nagas enhanced by nukelavees and serpenthead representatives of the khagan "
+"entered gnolls' hills and immediately started building fortresses there. "
+"Gnolls respond to this as it's an invasion and tried to repel the invaders. "
+"Militias of hyena-headed ones were lashing the outsiders, with wrathful howl "
+"chiefs challenged enemy commanders to a duel. Bekhs laughed at this from "
+"their palanquins and, usually even without interrupting the building "
+"process, threw nukelavees in combat trampling walking savages and making "
+"them flee...\n"
+"\n"
+"However not all gnolls were annoyed by the invasion of the outsiders. A "
+"decent number of chiefs (usually those whose lands weren't affected by "
+"building of the Khaganate's fortresses, also those who were firsthand "
+"enemies of a tribe attacked by snakes) sent their embassies to, as one of "
+"them described, "
 msgstr ""
 "Гноллы - раса прямоходящих гиен из железоносных холмов Гравра. В древности "
 "они были рядом диких племён охотников и рыболовов, живших в убогих землянках "
@@ -1072,17 +1113,17 @@ msgstr ""
 "ныне - первый после Бога!"
 
 #. [race]: id=steppevampire
-#: races.cfg:187 races.cfg:189
+#: races.cfg:197 races.cfg:199
 msgid "race^Vampire"
 msgstr "Вампир"
 
 #. [race]: id=steppevampire
-#: races.cfg:188
+#: races.cfg:198
 msgid "race+female^Vampire"
 msgstr "Вампирка"
 
 #. [race]: id=steppevampire
-#: races.cfg:190
+#: races.cfg:200
 msgid ""
 "Vampires are bloodsucking sentient undead found all over Irdya. Steppe or, "
 "as they're also called, Eastern vampires differ a bit from their Western "
@@ -1166,22 +1207,22 @@ msgstr ""
 "время, и элитного отряда мобильных боевых магов — в военное. "
 
 #. [race]: id=serpenthead
-#: races.cfg:203
+#: races.cfg:213
 msgid "race^Serpenthead"
 msgstr "Змееглав"
 
 #. [race]: id=serpenthead
-#: races.cfg:204
+#: races.cfg:214
 msgid "race+female^Serpenthead"
 msgstr "Змееглава"
 
 #. [race]: id=serpenthead
-#: races.cfg:205
+#: races.cfg:215
 msgid "race^Serpentheads"
 msgstr "Змееглавы"
 
 #. [race]: id=serpenthead
-#: races.cfg:206
+#: races.cfg:216
 msgid ""
 "Serpentheads are a mysterious race who crawled out of mountain gorges of the "
 "East several centuries ago.\n"
@@ -1218,22 +1259,22 @@ msgstr ""
 "- естественнее, чем ежедневный восход и заход солнца."
 
 #. [race]: id=kanavar
-#: races.cfg:218
+#: races.cfg:228
 msgid "race^Kanavar"
 msgstr "Канавар"
 
 #. [race]: id=kanavar
-#: races.cfg:219
+#: races.cfg:229
 msgid "race+female^Kanavar"
 msgstr "Канаварка"
 
 #. [race]: id=kanavar
-#: races.cfg:220
+#: races.cfg:230
 msgid "race^Kanavars"
 msgstr "Канавары"
 
 #. [race]: id=kanavar
-#: races.cfg:221
+#: races.cfg:231
 msgid "kanavar race^WIP: NOT YET TRANSLATED"
 msgstr ""
 "Канавары – это новая раса кочевников-полукровок, в которых кипит кровь "
@@ -1270,7 +1311,7 @@ msgstr ""
 "народа!"
 
 #. [race]: id=kanavar
-#: races.cfg:226
+#: races.cfg:236
 msgid ""
 "Tedrekhon, Hunugur, Balamir, Bazuk, Kursih, Yulduz, Karaton, Munchuk, "
 "Attila, Ambazuk, Bolah, Berihos, Boariks, Zilgibi, Gorda, Glonis, Orhan, "
@@ -1281,17 +1322,17 @@ msgstr ""
 "Батбай, Комук, Кази, Кувер"
 
 #. [race]: id=steppe_demon
-#: races.cfg:231 races.cfg:233
+#: races.cfg:241 races.cfg:243
 msgid "race^Ka'Ruuk'Oni"
 msgstr "Ка'Руук'Они"
 
 #. [race]: id=steppe_demon
-#: races.cfg:232
+#: races.cfg:242
 msgid "race+female^Ka'Ruuk'Oni"
 msgstr "Ка'Руук'Они"
 
 #. [race]: id=steppe_demon
-#: races.cfg:234
+#: races.cfg:244
 msgid ""
 "Many dark forces dwell in another worlds, and one of these forces managed to "
 "get into the terrestrial world are Ka'Ruuk'Oni demons — powerful entities "
@@ -1329,25 +1370,25 @@ msgstr ""
 "скором времени этот план войдёт в активную (и самую кровавую!) свою фазу"
 
 #. [race]: id=steppe_northerner
-#: races.cfg:243 races.cfg:245
+#: races.cfg:253 races.cfg:255
 msgid "race^Northern Human"
 msgstr "Северянин"
 
 #. [race]: id=steppe_northerner
-#: races.cfg:244
+#: races.cfg:254
 msgid "race+female^Northern Human"
 msgstr "Северянка"
 
 #. [race]: id=steppe_northerner
 #. [race]: id=steppe_raven
 #. [race]: id=steppe_southerner
-#: races.cfg:246 races.cfg:257 races.cfg:267
+#: races.cfg:256 races.cfg:267 races.cfg:277
 msgid "TODO"
 msgstr ""
 
 #. [race]: id=steppe_northerner
 #. [race]: id=steppe_raven
-#: races.cfg:248 races.cfg:270
+#: races.cfg:258 races.cfg:280
 msgid ""
 "Belomir, Belozar, Borislav, Burislav, Vasil'ko, Vladimir, Vseslav, Vsevolod, "
 "Gostomysl, Zvenimir, Zdeslav. Izyaslav, Kazimir, Krasibor, Mirodar, "
@@ -1359,7 +1400,7 @@ msgstr ""
 
 #. [race]: id=steppe_northerner
 #. [race]: id=steppe_raven
-#: races.cfg:249 races.cfg:271
+#: races.cfg:259 races.cfg:281
 msgid ""
 "Agniya, Alena, Anastasiya, Asya, Balemila, Borislava, Varvara, Vedana, "
 "Vel'mira, Vera, Vlada, Ganka, Gita, Greza, Diva, Dorodeya, Edviga, Zabava, "
@@ -1370,27 +1411,27 @@ msgstr ""
 "Злата, Инга, Малуша, Ольга, Пелагея, Рада, Светлана, Славина, Ярослава"
 
 #. [race]: id=steppe_southerner
-#: races.cfg:254 races.cfg:256
+#: races.cfg:264 races.cfg:266
 msgid "race^Southern Human"
 msgstr "Южанин"
 
 #. [race]: id=steppe_southerner
-#: races.cfg:255
+#: races.cfg:265
 msgid "race+female^Southern Human"
 msgstr "Южанка"
 
 #. [race]: id=steppe_raven
-#: races.cfg:264
+#: races.cfg:274
 msgid "race^Raven"
 msgstr "Ворон"
 
 #. [race]: id=steppe_raven
-#: races.cfg:265
+#: races.cfg:275
 msgid "race+female^Raven"
 msgstr "Ворон"
 
 #. [race]: id=steppe_raven
-#: races.cfg:266
+#: races.cfg:276
 msgid "race^Ravens"
 msgstr "Вороны"
 
@@ -1456,7 +1497,7 @@ msgstr "Союзные ведьмы в радиусе 3-ех гексов нач
 #. [attack]: type=blade
 #: units/hunns/Hunn_Demons.cfg:34 units/hunns/Hunn_Riders.cfg:256
 #: units/kingdom/Kingdom_Crossbow_Halfogres.cfg:485
-#: units/kingdom/Kingdom_Crossbow_Halfogres.cfg:577
+#: units/kingdom/Kingdom_Crossbow_Halfogres.cfg:579
 #: units/kingdom/Kingdom_Heirs.cfg:41 units/kingdom/Kingdom_Heirs.cfg:102
 #: units/kingdom/Kingdom_Heirs.cfg:164 units/kingdom/Kingdom_Vassals.cfg:25
 #: units/ogres/Ogre_Slavers.cfg:151 units/ogres/Ogre_Slavers.cfg:294
@@ -1500,11 +1541,6 @@ msgstr ""
 
 #. [abilities]
 #: units/hunns/Hunn_Demons.cfg:115
-msgid "knyaz of fiends"
-msgstr "князь бесов"
-
-#. [abilities]
-#: units/hunns/Hunn_Demons.cfg:115
 msgid ""
 "While is unit is in a 3-tile radius from them, allied witches can give birth "
 "to kanavars. All kanavars birthed/recruited while this unit is alive "
@@ -1513,6 +1549,11 @@ msgstr ""
 "Союзные ведьмы в радиусе 3-ех гексов начинают рожать канаваров. Все "
 "канавары, рождённые и завербованные, пока жив князь, получают постоянный "
 "бонус +1 к урону на все атаки. Этот бонус не суммируется."
+
+#. [abilities]
+#: units/hunns/Hunn_Demons.cfg:115
+msgid "knyaz of fiends"
+msgstr "князь бесов"
 
 #. [attack]: type=blade
 #. [attack]: type=pierce
@@ -1556,11 +1597,6 @@ msgstr ""
 
 #. [abilities]
 #: units/hunns/Hunn_Demons.cfg:266
-msgid "boiling blood"
-msgstr "кипящая кровь"
-
-#. [abilities]
-#: units/hunns/Hunn_Demons.cfg:266
 msgid ""
 "While is unit is in a 3-tile radius from them, his side's witches can give "
 "birth to kanavars. All kanavars birthed/recruited while this unit is alive "
@@ -1569,6 +1605,11 @@ msgstr ""
 "Союзные ведьмы в радиусе 3-ех гексов начинают рожать канаваров. Все "
 "канавары, рождённые и завербованные, пока жив разжигатель, получают свойство "
 "\"бесстрашный\"."
+
+#. [abilities]
+#: units/hunns/Hunn_Demons.cfg:266
+msgid "boiling blood"
+msgstr "кипящая кровь"
 
 #. [attack]: type=blade
 #: units/hunns/Hunn_Demons.cfg:275 units/kingdom/Kingdom_Heirs.cfg:230
@@ -1625,12 +1666,12 @@ msgstr ""
 "станут, ведь их воля полностью подчинена ведьмам, и они просто не могут не "
 "исполнить приказ."
 
-#. [unit_type]: id=Hunn_Great_Ghoul, race=undead
+#. [unit_type]: id=Hunn_Fiend, race=undead
 #: units/hunns/Hunn_Ghouls.cfg:108
 msgid "Fiend"
 msgstr "Исчадие"
 
-#. [unit_type]: id=Hunn_Great_Ghoul, race=undead
+#. [unit_type]: id=Hunn_Fiend, race=undead
 #: units/hunns/Hunn_Ghouls.cfg:126
 msgid "ghoul2^WIP: NOT YET TRANSLATED"
 msgstr ""
@@ -1678,8 +1719,8 @@ msgstr ""
 #: units/hunns/Hunn_Kanavars.cfg:28 units/hunns/Hunn_Kanavars.cfg:111
 #: units/hunns/Hunn_Kanavars.cfg:211 units/hunns/Hunn_Riders.cfg:132
 #: units/ogres/Ogre_Chariots.cfg:33 units/ogres/Ogre_Chariots.cfg:155
-#: units/ogres/Ogre_Infantry.cfg:35 units/ogres/Ogre_Infantry.cfg:107
-#: units/ogres/Ogre_Infantry.cfg:180 units/slavs/Slav-Builders.cfg:40
+#: units/ogres/Ogre_Infantry.cfg:35 units/ogres/Ogre_Infantry.cfg:127
+#: units/ogres/Ogre_Infantry.cfg:200 units/slavs/Slav-Builders.cfg:40
 #: units/slavs/Slav-Builders.cfg:151 units/slavs/Slav_Militia.cfg:118
 #: units/slavs/Slav_Militia.cfg:248
 msgid "axe"
@@ -1689,8 +1730,8 @@ msgstr "топор"
 #: units/hunns/Hunn_Kanavars.cfg:37 units/hunns/Hunn_Kanavars.cfg:120
 #: units/hunns/Hunn_Kanavars.cfg:220 units/khaganate/Slave_Archers.cfg:51
 #: units/khaganate/Slave_Archers.cfg:142 units/khaganate/Slave_Archers.cfg:240
-#: units/slavs/Building_Walls.cfg:189 units/slavs/Building_Walls.cfg:287
-#: units/slavs/Building_Walls.cfg:385 units/slavs/Slav_Archers.cfg:49
+#: units/slavs/Building_Walls.cfg:192 units/slavs/Building_Walls.cfg:290
+#: units/slavs/Building_Walls.cfg:388 units/slavs/Slav_Archers.cfg:49
 #: units/slavs/Slav_Archers.cfg:146 units/slavs/Slav_Archers.cfg:248
 #: units/slavs/Slav_Horsemen.cfg:138 units/slavs/Slav_Horsemen.cfg:278
 msgid "bow"
@@ -1868,7 +1909,8 @@ msgstr ""
 "атаковать с ещё большей силой."
 
 #. [attack]: type=pierce
-#: units/hunns/Hunn_Primal_Spawn.cfg:173
+#. [dummy]: id=steppe_primal_rage2
+#: units/hunns/Hunn_Primal_Spawn.cfg:173 utils/abilities_hunn.cfg:468
 msgid "rampage"
 msgstr "бешенство"
 
@@ -2033,7 +2075,9 @@ msgstr ""
 #. [attack]: type=impact
 #: units/hunns/Hunn_Witches.cfg:41 units/hunns/Hunn_Witches.cfg:168
 #: units/hunns/Hunn_Witches.cfg:300 units/hunns/Hunn_Witches.cfg:478
-#: units/hunns/Hunn_Witches.cfg:807 units/kingdom/Kingdom_Vassals.cfg:63
+#: units/hunns/Hunn_Witches.cfg:807 units/kingdom/Kingdom_Priests.cfg:137
+#: units/kingdom/Kingdom_Priests.cfg:233 units/kingdom/Kingdom_Priests.cfg:352
+#: units/kingdom/Kingdom_Vassals.cfg:63
 msgid "staff"
 msgstr "посох"
 
@@ -2738,7 +2782,7 @@ msgstr ""
 #: units/kingdom/Kingdom_Crossbow_Halfogres.cfg:337
 #: units/kingdom/Kingdom_Feudals.cfg:325 units/kingdom/Kingdom_Heirs.cfg:240
 #: units/kingdom/Kingdom_Trolls.cfg:41 units/kingdom/Kingdom_Trolls.cfg:105
-#: units/kingdom/Kingdom_Trolls.cfg:170 units/kingdom/Kingdom_Vassals.cfg:219
+#: units/kingdom/Kingdom_Trolls.cfg:170 units/kingdom/Kingdom_Vassals.cfg:222
 msgid "mace"
 msgstr "булава"
 
@@ -2789,26 +2833,48 @@ msgstr "Беклярбек"
 
 #. [unit_type]: id=Khaganate_Naga_General, race=steppenaga
 #: units/khaganate/Khaganate_Nagas.cfg:171
-msgid "Beklarbekh (which means "
+msgid ""
+"Beklarbekh (which means 'bekh of all bekhs') is the hereditary position of "
+"the head of the Nagas. Once upon a time, the ancestors of the present "
+"Beklarbekhs were the first noble naga bloodline that swore allegiance to the "
+"Khagan of the serpentheads, and their oasis became a springboard for the "
+"troops of the newly-formed Khaganate. Now the beklarbekjs are dignitaries "
+"especially noted by the grace of the Khagan, who judge their fellow naga "
+"tribesmen, manage gigantic territories, and rally the ranks of the people "
+"under the Khagan's banner during wartime.\n"
+"By his functions, a beklarbekh, also having to a large region and several "
+"regiments under him, is similar to a serpenthead tumenbashi, but in the "
+"hierarchy of the Khaganate is more of a 'younger brother' to them.\n"
+"To distinguish himself as a leader in wartime is a good way for a beklarbekh "
+"to put his name on a par with his great ancestors and find favor in the eyes "
+"of the Khagan. At the same time, having very large physical dimensions and "
+"the highest-quality armor being comparable in cost to a whole small town, "
+"the bekhlarbekhs, as befits the hierarchs of the Khaganate leading into "
+"battle by their example, do not hesitate to break into the bloodiest fights. "
+"Destroying enemies with blows of their maces and absorbing their blows with "
+"their shield, the noble beklarbekh is not afraid of death - should he fall, "
+"the Khagan will find him a worthy replacement among the branched dynasty of "
+"the Khaganate's first vassals and loyal slaves."
 msgstr ""
-"Беклярбек (что означает \"бек всех беков\") - наследственная должность главы "
-"народа нагов. Когда-то предки нынешних беклярбеков были первым княжеским "
-"родом нагов, что присягнули кагану змееглавых, и их оазис стал плацдармом "
-"для войск рождающегося Каганата. Теперь беклярбеки - особо отмеченные "
-"милостью Кагана сановники, которые судят своих соплеменников - нагов, "
-"управляют гигантскими земельными владениями, сплачивают ряды народа под "
-"каганским знаменем во время войн. По своим функциям беклярбек, также имеющий "
-"в подчинении большой регион и несколько полков, сходен со змееглавыми "
-"туменбаши, но в иерархии Каганата является для них \"младшим братом\". "
-"Отличиться во главе своих частей на войне для беклярбека - хороший способ "
-"поставить своё имя в один ряд с великими предками и обрести милость в глазах "
-"Кагана. При этом, будучи обладателями весьма крупных физических габаритов и "
-"наикачественнейшей брони стоимостью в городок, беклярбеки, как и подобает "
-"ведущим в бой своим примером иерархам Каганата, не брезгуют вламываться в "
-"самые кровавые мясорубки. Уничтожая врагов ударами пернача и принимая их "
-"удары на щит, благородный беклярбек не боится смерти - каган если что найдёт "
-"ему достойную замену среди разветвлённой династии своих первых вассалов и "
-"вернейших рабов."
+"Бекларбех (что означает «бех всех бех») — наследственная должность главы "
+"нагов. Когда-то давно предки нынешних бекларбехов были первой благородной "
+"родословной нагов, присягнувших на верность кагану змееголовых, а их оазис "
+"стал плацдармом для войск новообразованного каганата. Теперь бекларбеки – "
+"это сановники, особо отмеченные милостью кагана, которые судят своих "
+"собратьев по племени нагов, управляют гигантскими территориями и объединяют "
+"ряды народа под знаменем кагана в военное время.\n"
+"По своим функциям бекларбех, также имеющий под собой большую область и "
+"несколько полков, похож на змееголового туменбаши, но в иерархии каганата "
+"является им скорее «младшим братом».\n"
+"Отличиться как вождь в военное время – хороший способ для бекларбеха "
+"поставить свое имя в один ряд с великими предками и найти благосклонность в "
+"глазах кагана. В то же время, обладая очень большими физическими размерами и "
+"высочайшим качеством доспехов, сравнимым по стоимости с целым маленьким "
+"городом, бехларбехи, как и подобает иерархам каганата, ведущим в бой по их "
+"примеру, не стесняются врываться в самые кровопролитные бои. Уничтожая "
+"врагов ударами своих булав и поглощая их удары своим щитом, благородный "
+"бекларбех не боится смерти – если он падет, каган найдет ему достойную "
+"замену среди разветвленной династии первых вассалов каганата и верных рабов."
 
 #. [unit_type]: id=Khaganate_Naga_Punisher, race=steppenaga
 #: units/khaganate/Khaganate_Nagas.cfg:224
@@ -3044,6 +3110,7 @@ msgstr ""
 
 #. [attack]: type=impact
 #: units/khaganate/Khaganate_Serpentheads.cfg:93
+#: units/kingdom/Kingdom_Priests.cfg:42
 msgid "fist"
 msgstr "кулак"
 
@@ -3549,12 +3616,12 @@ msgid "Halfogre Mercenary"
 msgstr "Наёмник"
 
 #. [unit_type]: id=Kingdom_Halfogre_Landsknecht, race=ogre
-#: units/kingdom/Kingdom_Crossbow_Halfogres.cfg:543
+#: units/kingdom/Kingdom_Crossbow_Halfogres.cfg:545
 msgid "Halfogre Landsknecht"
 msgstr "Ландскнехт"
 
 #. [attack]: type=pierce
-#: units/kingdom/Kingdom_Crossbow_Halfogres.cfg:587
+#: units/kingdom/Kingdom_Crossbow_Halfogres.cfg:589
 msgid "handheld ballista"
 msgstr "арбаллиста "
 
@@ -3631,6 +3698,49 @@ msgstr "Речной атаман"
 msgid "River Getman"
 msgstr "Речной гетьман"
 
+#. [unit_type]: id=Kingdom_Cleric, race=ogre
+#: units/kingdom/Kingdom_Priests.cfg:10
+#, fuzzy
+#| msgid "Ogre Slaver"
+msgid "Ogre Cleric"
+msgstr "Работорговец"
+
+#. [attack]: type=arcane
+#. [damage]: id=steppe_holy_light
+#: units/kingdom/Kingdom_Priests.cfg:52 units/kingdom/Kingdom_Priests.cfg:147
+#: units/kingdom/Kingdom_Priests.cfg:243 units/kingdom/Kingdom_Priests.cfg:362
+#: units/kingdom/Kingdom_Vassals.cfg:73 utils/abilities_slav.cfg:1854
+msgid "holy light"
+msgstr "божественный свет"
+
+#. [unit_type]: id=Kingdom_Bishop, race=ogre
+#: units/kingdom/Kingdom_Priests.cfg:105
+#, fuzzy
+#| msgid "Ogre Loyal Bishop"
+msgid "Ogre Bishop"
+msgstr "Преданныйы епископ"
+
+#. [unit_type]: id=Kingdom_Cardinal, race=ogre
+#: units/kingdom/Kingdom_Priests.cfg:200
+#, fuzzy
+#| msgid "Ogre Chariot"
+msgid "Ogre Cardinal"
+msgstr "Колесница"
+
+#. [attack]: type=fire
+#: units/kingdom/Kingdom_Priests.cfg:256 units/kingdom/Kingdom_Priests.cfg:375
+#, fuzzy
+#| msgid "solar flame"
+msgid "cleansing flame"
+msgstr "солнечное пламя"
+
+#. [unit_type]: id=Kingdom_Pope, race=ogre
+#: units/kingdom/Kingdom_Priests.cfg:317
+#, fuzzy
+#| msgid "Ogre Pan"
+msgid "Ogre Pope"
+msgstr "Пан"
+
 #. [unit_type]: id=Kingdom_Serf, race=human
 #: units/kingdom/Kingdom_Serfs.cfg:5
 msgid "Serf"
@@ -3672,12 +3782,6 @@ msgstr "Старший сын"
 msgid "Ogre Loyal Bishop"
 msgstr "Преданныйы епископ"
 
-#. [attack]: type=arcane
-#. [damage]: id=steppe_holy_light
-#: units/kingdom/Kingdom_Vassals.cfg:73 utils/abilities_slav.cfg:1854
-msgid "holy light"
-msgstr "божественный свет"
-
 #. [unit_type]: id=Kingdom_Vassal_Mercenary_Ringleader
 #: units/kingdom/Kingdom_Vassals.cfg:95
 msgid "Ogre Mercenary Ringleader"
@@ -3694,7 +3798,7 @@ msgid "Ogre Highwayman"
 msgstr "Лихой разбойник"
 
 #. [unit_type]: id=Kingdom_Vassal_Elder_Troll, race=troll
-#: units/kingdom/Kingdom_Vassals.cfg:183
+#: units/kingdom/Kingdom_Vassals.cfg:186
 msgid "Elder Troll"
 msgstr "Старый тролль"
 
@@ -3834,7 +3938,7 @@ msgstr ""
 #. [attack]: type=impact
 #. [dummy]: id=steppe_trample
 #: units/ogres/Ogre_Chariots.cfg:45 units/ogres/Ogre_Chariots.cfg:167
-#: utils/abilities_misc.cfg:1020
+#: utils/abilities_misc.cfg:1016
 msgid "trample"
 msgstr "раздавить"
 
@@ -3986,7 +4090,7 @@ msgstr ""
 #. [attack]: type=fire
 #. [effect]: type=fire
 #: units/ogres/Ogre_Hunters.cfg:371 units/ogres/Ogre_Hunters.cfg:486
-#: utils/abilities_kingdom.cfg:898
+#: utils/abilities_kingdom.cfg:953
 msgid "torch"
 msgstr "факел"
 
@@ -4114,18 +4218,18 @@ msgstr ""
 "ухаживают за скотом."
 
 #. [attack]: type=blade
-#: units/ogres/Ogre_Infantry.cfg:44 units/ogres/Ogre_Infantry.cfg:116
-#: units/ogres/Ogre_Infantry.cfg:189
+#: units/ogres/Ogre_Infantry.cfg:44 units/ogres/Ogre_Infantry.cfg:136
+#: units/ogres/Ogre_Infantry.cfg:209
 msgid "heavy blow"
 msgstr "тяжёлый удар"
 
 #. [unit_type]: id=Ogre_Foreman, race=steppeogre
-#: units/ogres/Ogre_Infantry.cfg:73
+#: units/ogres/Ogre_Infantry.cfg:93
 msgid "Ogre Foreman"
 msgstr "Десятник"
 
 #. [unit_type]: id=Ogre_Foreman, race=steppeogre
-#: units/ogres/Ogre_Infantry.cfg:97
+#: units/ogres/Ogre_Infantry.cfg:117
 msgid ""
 "Foremen are experienced ogre raiders. They are recruited from ogre grunts "
 "who have distinguished themselves in battle. As a sign of their new status, "
@@ -4161,12 +4265,12 @@ msgstr ""
 "практикуют боевые навыки."
 
 #. [unit_type]: id=Ogre_Centurion, race=steppeogre
-#: units/ogres/Ogre_Infantry.cfg:144
+#: units/ogres/Ogre_Infantry.cfg:164
 msgid "Ogre Centurion"
 msgstr "Сотник"
 
 #. [unit_type]: id=Ogre_Centurion, race=steppeogre
-#: units/ogres/Ogre_Infantry.cfg:170
+#: units/ogres/Ogre_Infantry.cfg:190
 msgid ""
 "The centurions are the top of the nomadic society, the khan's close "
 "associates and the leaders of the hordes in the summer season. If foremen "
@@ -4506,7 +4610,7 @@ msgstr "удар головой"
 #. [attack]: type=cold
 #. [effect]: type=cold
 #: units/ogres/Tarbynns.cfg:62 units/ogres/Tarbynns.cfg:145
-#: units/ogres/Tarbynns.cfg:256 utils/steppe_amla.cfg:408
+#: units/ogres/Tarbynns.cfg:256 utils/steppe_amla.cfg:413
 msgid "drain life"
 msgstr "вытягивание жизни"
 
@@ -4687,7 +4791,8 @@ msgid "hiding spot"
 msgstr "укрытие"
 
 #. [hides]: id=building_hiding_spot
-#: units/slavs/Building_Market_and_Misc.cfg:341
+#. [hides]: id=steppe_hide_allies
+#: units/slavs/Building_Market_and_Misc.cfg:341 utils/abilities_misc.cfg:2882
 msgid "This unit makes adjacent non-building allies invisible."
 msgstr "Это здание делает союзных юнитов (но не здания) невидимыми"
 
@@ -4740,33 +4845,33 @@ msgstr "Божественное сияние"
 msgid "Wood Wall"
 msgstr "Деревянная стена"
 
-#: units/slavs/Building_Walls.cfg:91
+#: units/slavs/Building_Walls.cfg:92
 msgid "Tall Wood Wall"
 msgstr "Высокая деревянная стена"
 
-#: units/slavs/Building_Walls.cfg:114
+#: units/slavs/Building_Walls.cfg:116
 msgid "Magic Wall"
 msgstr "Волшебная стена"
 
-#: units/slavs/Building_Walls.cfg:138
+#: units/slavs/Building_Walls.cfg:141
 msgid "Guard Tower"
 msgstr "Сторожевая башня"
 
 #. [attack]: type=pierce
-#: units/slavs/Building_Walls.cfg:175
+#: units/slavs/Building_Walls.cfg:178
 msgid "long-range shot"
 msgstr "дальнобойный выстрел"
 
-#: units/slavs/Building_Walls.cfg:237
+#: units/slavs/Building_Walls.cfg:240
 msgid "Outpost"
 msgstr "Застава"
 
 #. [attack]: type=pierce
-#: units/slavs/Building_Walls.cfg:273 units/slavs/Building_Walls.cfg:371
+#: units/slavs/Building_Walls.cfg:276 units/slavs/Building_Walls.cfg:374
 msgid "ballista"
 msgstr "баллиста"
 
-#: units/slavs/Building_Walls.cfg:335
+#: units/slavs/Building_Walls.cfg:338
 msgid "Fortress"
 msgstr "Крепость"
 
@@ -4776,18 +4881,18 @@ msgid "Drake Smith"
 msgstr "Кузнец"
 
 #. [abilities]
+#: units/slavs/Novgorod-Drakes.cfg:75 units/slavs/Novgorod-Drakes.cfg:359
+#: units/slavs/Novgorod-Drakes.cfg:474
+msgid "build smithies"
+msgstr "строит кузницы"
+
+#. [abilities]
 #: units/slavs/Novgorod-Drakes.cfg:75
 msgid ""
 "This unit can build the following:\n"
 "\n"
 "Smithy - 10 gold"
 msgstr "Этот боец может строить кузницы (стоимость - 10 золотых)"
-
-#. [abilities]
-#: units/slavs/Novgorod-Drakes.cfg:75 units/slavs/Novgorod-Drakes.cfg:359
-#: units/slavs/Novgorod-Drakes.cfg:474
-msgid "build smithies"
-msgstr "строит кузницы"
 
 #. [abilities]
 #: units/slavs/Novgorod-Drakes.cfg:78 units/slavs/Novgorod-Drakes.cfg:362
@@ -4949,18 +5054,18 @@ msgid "Archer"
 msgstr "Лучник"
 
 #. [abilities]
-#: units/slavs/Slav_Archers.cfg:31 units/slavs/Slav_Archers.cfg:125
-#: units/slavs/Slav_Archers.cfg:226
-msgid "build outposts"
-msgstr "строит сторожевые башни"
-
-#. [abilities]
 #: units/slavs/Slav_Archers.cfg:31
 msgid ""
 "This unit can build the following:\n"
 "\n"
 "Guard tower - 5 gold"
 msgstr "Этот боец может строить сторожевые башни (стоимость - 5 золотых)"
+
+#. [abilities]
+#: units/slavs/Slav_Archers.cfg:31 units/slavs/Slav_Archers.cfg:125
+#: units/slavs/Slav_Archers.cfg:226
+msgid "build outposts"
+msgstr "строит сторожевые башни"
 
 #. [abilities]
 #: units/slavs/Slav_Archers.cfg:34 units/slavs/Slav_Archers.cfg:129
@@ -5044,17 +5149,17 @@ msgstr "Воин"
 
 #. [abilities]
 #: units/slavs/Slav_Militia.cfg:32 units/slavs/Slav_Militia.cfg:95
+#: units/slavs/Slav_Militia.cfg:225
+msgid "build walls"
+msgstr "строит деревянные стены"
+
+#. [abilities]
+#: units/slavs/Slav_Militia.cfg:32 units/slavs/Slav_Militia.cfg:95
 msgid ""
 "This unit can build the following:\n"
 "\n"
 "Wooden Wall - 3 gold"
 msgstr "Этот боец может строить стены (стоимость - 3 золотых)"
-
-#. [abilities]
-#: units/slavs/Slav_Militia.cfg:32 units/slavs/Slav_Militia.cfg:95
-#: units/slavs/Slav_Militia.cfg:225
-msgid "build walls"
-msgstr "строит деревянные стены"
 
 #. [abilities]
 #: units/slavs/Slav_Militia.cfg:35 units/slavs/Slav_Militia.cfg:98
@@ -5143,7 +5248,7 @@ msgstr "ослепляющая вспышка"
 #. [damage]: id=steppe_desperate
 #. [firststrike]: id=steppe_secondstrike
 #: utils/abilities_experimental.cfg:10 utils/abilities_experimental.cfg:53
-#: utils/abilities_misc.cfg:1872
+#: utils/abilities_misc.cfg:1869
 msgid "desperate"
 msgstr "безрассудство"
 
@@ -5198,6 +5303,44 @@ msgstr "праведный"
 #: utils/abilities_experimental.cfg:66
 msgid "This attack deals 25% more damage against chaotic enemies."
 msgstr "Эта атака наносит на 25% больше урона по хаотичным врагам. "
+
+#. [poison]: id=poison_aura
+#: utils/abilities_experimental.cfg:83
+msgid "poison aura"
+msgstr "аура яда"
+
+#. [poison]: id=poison_aura
+#: utils/abilities_experimental.cfg:84
+msgid "Adjacent allies have poison on all their attacks."
+msgstr "Стоящие рядом союзники получают яд на всех атаки."
+
+#. [chance_to_hit]: id=steppe_inverse
+#: utils/abilities_experimental.cfg:98
+msgid "inverse"
+msgstr "инверсия"
+
+#. [chance_to_hit]: id=steppe_inverse
+#: utils/abilities_experimental.cfg:99
+msgid ""
+"This attack's chance to hit is equal to the defensive ability of the target "
+"on its current terrain. (opposite of the normal chance to hit)"
+msgstr ""
+"Шанс попадания этой атаки равен защите врага (наоборот от обычного шанса "
+"попадания) "
+
+#. [resistance]: id=steppe_invert_resistances
+#: utils/abilities_experimental.cfg:119
+msgid "invert resistances"
+msgstr "инверсия сопротивлений"
+
+#. [resistance]: id=steppe_invert_resistances
+#: utils/abilities_experimental.cfg:120
+msgid ""
+"Adjacent units (both allies and enemies) resistances are inverted (20% "
+"becomes -20%, -30% becomes 30%, etc.)"
+msgstr ""
+"Сопротивления стоящих рядом юнитов (и союзников и врагов) становятся "
+"перевернутыми (20% становится -20%, -30% становится 30%, и т.д.)"
 
 #. [skirmisher]: id=steppe_wolfpack
 #: utils/abilities_hunn.cfg:27
@@ -5265,7 +5408,7 @@ msgstr "курганный царь"
 #. [leadership]: id=steppe_barrow_tsar
 #: utils/abilities_hunn.cfg:195
 msgid "Adjacent barrow riders and barrow wardens deal 20% more damage"
-msgstr "Союзные курганные всадники и стражи наносят на 20% урона"
+msgstr "Союзные курганные всадники и стражи наносят на 20% больше урона"
 
 #. [dummy]: id=steppe_patriarch_of_unlife
 #: utils/abilities_hunn.cfg:214
@@ -5380,12 +5523,6 @@ msgstr ""
 msgid "decay -"
 msgstr "гниение -"
 
-#. [dummy]: id=depleting{NUMBER}
-#. [dummy]: id=steppe_depleting_hunn
-#: utils/abilities_hunn.cfg:1554 utils/abilities_ogre.cfg:1633
-msgid "This unit loses "
-msgstr "Этот юнит проиграл"
-
 #. [dummy]: id=steppe_depleting_hunn
 #: utils/abilities_hunn.cfg:1554
 msgid ""
@@ -5397,6 +5534,12 @@ msgstr ""
 "яда, юнит может погибнуть от гниение (опыт получает юнит которые наложил "
 "этот эффект). Живые юниты убитые проклятием заменяются Низшими Убырями на "
 "стороне проклинателя."
+
+#. [dummy]: id=depleting{NUMBER}
+#. [dummy]: id=steppe_depleting_hunn
+#: utils/abilities_hunn.cfg:1554 utils/abilities_ogre.cfg:1633
+msgid "This unit loses "
+msgstr "Этот юнит проиграл"
 
 #. [floating_text]
 #. [unstore_unit]
@@ -5638,14 +5781,14 @@ msgstr ""
 "сторону вражеских рабов не смотря не их уровень)."
 
 #. [set_variable]
-#: utils/abilities_khaganate.cfg:499 utils/abilities_khaganate.cfg:1066
-#: utils/abilities_khaganate.cfg:1836
+#: utils/abilities_khaganate.cfg:499 utils/abilities_khaganate.cfg:1062
+#: utils/abilities_khaganate.cfg:1832
 msgid "female^Converted!"
 msgstr "Переведена!"
 
 #. [set_variable]
-#: utils/abilities_khaganate.cfg:506 utils/abilities_khaganate.cfg:1073
-#: utils/abilities_khaganate.cfg:1843
+#: utils/abilities_khaganate.cfg:506 utils/abilities_khaganate.cfg:1069
+#: utils/abilities_khaganate.cfg:1839
 msgid "Converted!"
 msgstr "Переведён!"
 
@@ -5679,8 +5822,13 @@ msgstr ""
 "только 1 раз. Рабы не могут ходить/атаковать на том же ходу что "
 "освободились. Нежить/животные/другие рабы не могут освобождать рабов."
 
+#. [unstore_unit]
+#: utils/abilities_khaganate.cfg:650 utils/abilities_ogre.cfg:955
+msgid "Freedom!"
+msgstr "Свобода!"
+
 #. [effect]
-#: utils/abilities_khaganate.cfg:733 utils/steppe_amla.cfg:111
+#: utils/abilities_khaganate.cfg:729 utils/steppe_amla.cfg:116
 msgid ""
 "Khaganate Citizenship: the unit is no longer a slave, and becomes a "
 "khaganate unit, +15% damage, and loyal trait, +20% XP"
@@ -5689,37 +5837,37 @@ msgstr ""
 "получает трейт 'верный', +20% ОП."
 
 #. [set_menu_item]: id=steppe_slavecalculator
-#: utils/abilities_khaganate.cfg:1307
+#: utils/abilities_khaganate.cfg:1303
 msgid "Calculate whether this unit can be freed/converted"
 msgstr "Подсчитать освобождаемость/переводимость юнита"
 
 #. [else]
 #. [option]: speaker=$able_to_upgrade[$random].id
 #. [then]
-#: utils/abilities_khaganate.cfg:1362 utils/abilities_khaganate.cfg:1408
-#: utils/abilities_khaganate.cfg:1433 utils/abilities_khaganate.cfg:1540
-#: utils/abilities_khaganate.cfg:1562 utils/abilities_ogre.cfg:281
-#: utils/abilities_slav_building.cfg:1509
+#: utils/abilities_khaganate.cfg:1358 utils/abilities_khaganate.cfg:1404
+#: utils/abilities_khaganate.cfg:1429 utils/abilities_khaganate.cfg:1536
+#: utils/abilities_khaganate.cfg:1558 utils/abilities_ogre.cfg:281
+#: utils/abilities_slav_building.cfg:1662
 msgid "No"
 msgstr "Нет"
 
 #. [else]
 #. [option]: speaker=$able_to_upgrade[$random].id
 #. [then]
-#: utils/abilities_khaganate.cfg:1366 utils/abilities_khaganate.cfg:1404
-#: utils/abilities_khaganate.cfg:1426 utils/abilities_khaganate.cfg:1536
-#: utils/abilities_khaganate.cfg:1555 utils/abilities_ogre.cfg:274
-#: utils/abilities_slav_building.cfg:1436
+#: utils/abilities_khaganate.cfg:1362 utils/abilities_khaganate.cfg:1400
+#: utils/abilities_khaganate.cfg:1422 utils/abilities_khaganate.cfg:1532
+#: utils/abilities_khaganate.cfg:1551 utils/abilities_ogre.cfg:274
+#: utils/abilities_slav_building.cfg:1589
 msgid "Yes"
 msgstr "Да"
 
 #. [message]: speaker=narrator
-#: utils/abilities_khaganate.cfg:1447
+#: utils/abilities_khaganate.cfg:1443
 msgid "Slave freeing/converting calculator"
 msgstr "Посчитать освобождаемость/переводимость этого юнита"
 
 #. [message]: speaker=narrator
-#: utils/abilities_khaganate.cfg:1448
+#: utils/abilities_khaganate.cfg:1444
 msgid ""
 "Total slaver level (including slaves): <span color='#"
 "$steppe_slavecalc_slaver_color|'>$slaver_points|</span>\n"
@@ -5755,17 +5903,17 @@ msgstr ""
 "юниты не влияют на перевес уровней)"
 
 #. [set_menu_item]: id=steppe_disloyalcalculator
-#: utils/abilities_khaganate.cfg:1481
+#: utils/abilities_khaganate.cfg:1477
 msgid "Calculate whether this unit can desert"
 msgstr "Подсчитать дезертирство этого юнита"
 
 #. [message]: speaker=narrator
-#: utils/abilities_khaganate.cfg:1572
+#: utils/abilities_khaganate.cfg:1568
 msgid "Disloyal desert-ability calculator"
 msgstr "Calculate whether this unit can desert"
 
 #. [message]: speaker=narrator
-#: utils/abilities_khaganate.cfg:1573
+#: utils/abilities_khaganate.cfg:1569
 msgid ""
 "Total khaganate levels: <span color='#$steppe_disloyalcalc_khaganate_color|'>"
 "$khaganate_points|</span>\n"
@@ -5796,17 +5944,17 @@ msgstr ""
 "юниты не влияют на перевес уровней)"
 
 #. [unstore_unit]
-#: utils/abilities_khaganate.cfg:1756
+#: utils/abilities_khaganate.cfg:1752
 msgid "+$tmp_overseer_exp| exp"
 msgstr "+$tmp_overseer_exp| опыта"
 
 #. [leadership]: id=steppe_oversight
-#: utils/abilities_khaganate.cfg:1778
+#: utils/abilities_khaganate.cfg:1774
 msgid "oversight "
-msgstr "надзор"
+msgstr "надзор "
 
 #. [leadership]: id=steppe_oversight
-#: utils/abilities_khaganate.cfg:1779
+#: utils/abilities_khaganate.cfg:1775
 msgid ""
 "Adjacent ally slaves/disloyals deal {NUMBER}% more damage, and slaves cannot "
 "be freed regardless of level difference. Adjacent ally disloyal units no "
@@ -5824,12 +5972,12 @@ msgstr ""
 "работает если юнит в плену."
 
 #. [dummy]: id=convert_slaves
-#: utils/abilities_khaganate.cfg:1802
+#: utils/abilities_khaganate.cfg:1798
 msgid "convert slaves"
 msgstr "перевод рабов"
 
 #. [dummy]: id=convert_slaves
-#: utils/abilities_khaganate.cfg:1803
+#: utils/abilities_khaganate.cfg:1799
 msgid ""
 "Works like enslave, except only on either freed recruitable slaves, or "
 "currently enslaved enemy slaves (converts them to your side instead)."
@@ -5839,12 +5987,12 @@ msgstr ""
 "списка вербовки Каганата."
 
 #. [dummy]: id=steppe_disloyal
-#: utils/abilities_khaganate.cfg:1984
+#: utils/abilities_khaganate.cfg:1980
 msgid "disloyal"
 msgstr "нелояльный"
 
 #. [dummy]: id=steppe_disloyal
-#: utils/abilities_khaganate.cfg:1985
+#: utils/abilities_khaganate.cfg:1981
 msgid ""
 "This unit is disloyal, and is prone to desertion. Upon being defeated, while "
 "the level of nearby enemies (in a 2-tile radius from the unit. Units that "
@@ -5872,12 +6020,12 @@ msgstr ""
 "касается и возможности вербовать, и особенности, если таковая имелась)."
 
 #. [leadership]: id=steppe_punisher
-#: utils/abilities_khaganate.cfg:2114
+#: utils/abilities_khaganate.cfg:2110
 msgid "punisher"
 msgstr "каратель"
 
 #. [leadership]: id=steppe_punisher
-#: utils/abilities_khaganate.cfg:2115
+#: utils/abilities_khaganate.cfg:2111
 msgid ""
 "Adjacent enemy slaves (or freed slaves) deal 25% less damage, and adjacent "
 "enemy disloyal units deal 15% less damage."
@@ -5886,12 +6034,12 @@ msgstr ""
 "наносят на 25% меньше урона, а нелояльные бойцы — на 15% меньше урона."
 
 #. [dummy]: id=steppe_nightform
-#: utils/abilities_khaganate.cfg:2146
+#: utils/abilities_khaganate.cfg:2142
 msgid "night form"
 msgstr "ночная форма"
 
 #. [dummy]: id=steppe_nightform
-#: utils/abilities_khaganate.cfg:2147
+#: utils/abilities_khaganate.cfg:2143
 msgid ""
 "This unit turns into their night form variation at dusk/night, and "
 "transforms back at dawn/day."
@@ -5901,22 +6049,22 @@ msgstr ""
 "своими атаками и способностями."
 
 #. [disable]: id=steppe_bloodmagic
-#: utils/abilities_khaganate.cfg:2247
+#: utils/abilities_khaganate.cfg:2243
 msgid "blood magic"
 msgstr "магия крови"
 
 #. [disable]: id=steppe_bloodmagic
-#: utils/abilities_khaganate.cfg:2248
+#: utils/abilities_khaganate.cfg:2244
 msgid "This attack can't be used on non-living units."
 msgstr "Эта атака не может быть использована на неживых юнитов."
 
 #. [damage]: id=steppe_finishoff
-#: utils/abilities_khaganate.cfg:2262
+#: utils/abilities_khaganate.cfg:2258
 msgid "finish off"
 msgstr "добивание"
 
 #. [damage]: id=steppe_finishoff
-#: utils/abilities_khaganate.cfg:2263
+#: utils/abilities_khaganate.cfg:2259
 msgid ""
 "This attack deals more damage the less HP the opponent has: 25% more if "
 "below 70% HP, 50% more if below 50% HP, and 100% more if the opponent is "
@@ -5931,23 +6079,23 @@ msgstr ""
 
 #. [attacks]: id=steppe_paralyzed
 #. [set_variable]
-#: utils/abilities_khaganate.cfg:2333 utils/abilities_khaganate.cfg:2407
-#: utils/abilities_khaganate.cfg:2498
+#: utils/abilities_khaganate.cfg:2329 utils/abilities_khaganate.cfg:2403
+#: utils/abilities_khaganate.cfg:2494
 msgid "paralyzed"
 msgstr "парализован"
 
 #. [attacks]: id=steppe_paralyzed
-#: utils/abilities_khaganate.cfg:2334
+#: utils/abilities_khaganate.cfg:2330
 msgid "This attack's strikes are reduced to 1."
 msgstr "Число ударов этой атаки снижено до 1."
 
 #. [dummy]: id=steppe_paralyze
-#: utils/abilities_khaganate.cfg:2350
+#: utils/abilities_khaganate.cfg:2346
 msgid "paralyze"
 msgstr "паралич"
 
 #. [dummy]: id=steppe_paralyze
-#: utils/abilities_khaganate.cfg:2351
+#: utils/abilities_khaganate.cfg:2347
 msgid ""
 "This attack sets the opponent's number of strikes on all attacks to 1, and "
 "defense on all terain by 10%, until the enemy's next turn. Does not work on "
@@ -5958,17 +6106,17 @@ msgstr ""
 "хода. Паралич не действует на неживых юнитов."
 
 #. [set_variable]
-#: utils/abilities_khaganate.cfg:2400 utils/abilities_khaganate.cfg:2491
+#: utils/abilities_khaganate.cfg:2396 utils/abilities_khaganate.cfg:2487
 msgid "female^paralyzed"
 msgstr "парализована"
 
 #. [leadership]: id=steppe_khagans_presense
-#: utils/abilities_khaganate.cfg:2600
+#: utils/abilities_khaganate.cfg:2596
 msgid "khagan's presence"
 msgstr "присутствие кагана"
 
 #. [leadership]: id=steppe_khagans_presense
-#: utils/abilities_khaganate.cfg:2601
+#: utils/abilities_khaganate.cfg:2597
 msgid ""
 "Adjacent ally khaganate units (except other units with this ability) deal "
 "15% more damage and adjacent slaves/disloyals deal 33% more damage. Slaves "
@@ -5993,19 +6141,22 @@ msgstr ""
 msgid "penetrate armor {VALUE}%"
 msgstr "пробивание брони {VALUE}%"
 
-#. [chance_to_hit]: id=reliable
 #. [dummy]: id=penetrate_armor_{VALUE}
-#: utils/abilities_kingdom.cfg:21 utils/abilities_misc.cfg:885
-msgid "When used offensively, this attack's chance to hit is increased by 10%."
-msgstr "При атаке точность увеличивается на 10%."
+#: utils/abilities_kingdom.cfg:21
+msgid ""
+"While attacking with this weapon, the opponent's resistances are reduced by "
+"{VALUE} (can't go below 0%)."
+msgstr ""
+"При атаке этим оружием, сопротивления врага на {VALUE} меньше (не может "
+"уменьшить ниже 0%)."
 
 #. [dummy]: id=steppe_knockback
-#: utils/abilities_kingdom.cfg:59
+#: utils/abilities_kingdom.cfg:91
 msgid "knockback"
 msgstr "отбрасывание"
 
 #. [dummy]: id=steppe_knockback
-#: utils/abilities_kingdom.cfg:60
+#: utils/abilities_kingdom.cfg:92
 msgid ""
 "On offense, this unit pushes the enemy one tile behind on hit. This does not "
 "work if that tile is either occupied or impassable for the enemy."
@@ -6014,77 +6165,77 @@ msgstr ""
 "эта гекс занят или непроходим для врага."
 
 #. [event]: id=steppe_kingdom_titles1, type=Kingdom_King, type=Kingdom_King, type=Kingdom_Pope
-#: utils/abilities_kingdom.cfg:350
+#: utils/abilities_kingdom.cfg:382
 msgid "Sir "
-msgstr "Сэр"
+msgstr "Сэр "
 
 #. [case]
-#: utils/abilities_kingdom.cfg:359
+#: utils/abilities_kingdom.cfg:391
 msgid " I"
 msgstr ""
 
 #. [case]
-#: utils/abilities_kingdom.cfg:366
+#: utils/abilities_kingdom.cfg:398
 msgid " II"
 msgstr ""
 
 #. [case]
-#: utils/abilities_kingdom.cfg:373
+#: utils/abilities_kingdom.cfg:405
 msgid " III"
 msgstr ""
 
 #. [case]
-#: utils/abilities_kingdom.cfg:380
+#: utils/abilities_kingdom.cfg:412
 msgid " IV"
 msgstr ""
 
 #. [case]
-#: utils/abilities_kingdom.cfg:387
+#: utils/abilities_kingdom.cfg:419
 msgid " V"
 msgstr ""
 
 #. [event]: id=steppe_kingdom_titles1, type=Kingdom_King, type=Kingdom_King, type=Kingdom_Pope
-#: utils/abilities_kingdom.cfg:395
+#: utils/abilities_kingdom.cfg:427
 msgid "King "
-msgstr "Король"
+msgstr "Король "
 
 #. [event]: id=steppe_kingdom_titles1, type=Kingdom_King, type=Kingdom_King, type=Kingdom_Pope
-#: utils/abilities_kingdom.cfg:401
+#: utils/abilities_kingdom.cfg:433
 msgid " The Great"
-msgstr "Великий"
+msgstr " Великий"
 
 #. [event]: id=steppe_kingdom_titles1, type=Kingdom_King, type=Kingdom_King, type=Kingdom_Pope
-#: utils/abilities_kingdom.cfg:406
+#: utils/abilities_kingdom.cfg:438
 msgid "Pope "
-msgstr "Папа Огрский"
+msgstr "Папа Огрский "
 
 #. [then]: type=Kingdom_King
-#: utils/abilities_kingdom.cfg:438
+#: utils/abilities_kingdom.cfg:470
 msgid " The Clumsy"
-msgstr "Косой"
+msgstr " Косой"
 
 #. [event]: id=steppe_kingdom_titles_king_capture, type=Kingdom_King
-#: utils/abilities_kingdom.cfg:457
+#: utils/abilities_kingdom.cfg:489
 msgid " The Taker of Villages"
-msgstr "Покоритель деревень"
+msgstr " Покоритель деревень"
 
 #. [event]: id=steppe_kingdom_titles_giantslayer
-#: utils/abilities_kingdom.cfg:477
+#: utils/abilities_kingdom.cfg:509
 msgid " The Giantslayer"
-msgstr "Убийца великанов"
+msgstr " Убийца великанов"
 
 #. [event]: id=steppe_kingdom_titles_giantslayer, type=Kingdom_King
-#: utils/abilities_kingdom.cfg:493
+#: utils/abilities_kingdom.cfg:525
 msgid " The Crusher of Weaklings"
-msgstr "Сокрушитель слабых"
+msgstr " Сокрушитель слабых"
 
 #. [event]: id=steppe_kingdom_titles_giantslayer
-#: utils/abilities_kingdom.cfg:510
+#: utils/abilities_kingdom.cfg:542
 msgid " The Kingslayer"
-msgstr "Убийца королей"
+msgstr " Убийца королей"
 
 #. [message]: speaker=narrator
-#: utils/abilities_kingdom.cfg:670
+#: utils/abilities_kingdom.cfg:725
 msgid ""
 "You're currently at/above max vassal amount, so you can't pick new ones at "
 "the start of battle yet."
@@ -6092,8 +6243,8 @@ msgstr ""
 "В настоящее время у вас максимальное количество вассалов, поэтому вы пока не "
 "можете выбрать новых в начале битвы."
 
-#. [else]
-#: utils/abilities_kingdom.cfg:680
+#. [else]: id=$tmp_steppe_leader.id
+#: utils/abilities_kingdom.cfg:735
 msgid ""
 "Choose a new vassal(s) to fill your remaining vassal slots (will be added to "
 "your recall list, can choose $tmp_vassal_picks_left| vassals)"
@@ -6101,18 +6252,18 @@ msgstr ""
 "Выберите нового вассала! Вассалы будут добавлены в список призыва, "
 "одновременно можно иметь только $tmp_vassal_picks_left| вассалов)"
 
-#. [else]
-#: utils/abilities_kingdom.cfg:695
+#. [else]: id=$tmp_steppe_leader.id, id=$tmp_steppe_leader.id
+#: utils/abilities_kingdom.cfg:750
 msgid "Choose your first vassal (will be added to your recall list)"
 msgstr "Выберите вашего первого вассала! (будет добавлен в список призыва)"
 
-#. [else]
-#: utils/abilities_kingdom.cfg:700
+#. [else]: id=$tmp_steppe_leader.id, id=$tmp_steppe_leader.id
+#: utils/abilities_kingdom.cfg:755
 msgid "Choose your second vassal (will be added to your recall list)"
 msgstr "Выберите вашего второго вассала! (будет добавлен в список призыва)"
 
-#. [then]
-#: utils/abilities_kingdom.cfg:714
+#. [then]: id=$tmp_steppe_leader.id
+#: utils/abilities_kingdom.cfg:769
 msgid ""
 "Since your leader is level 4 or above, you can choose a third vassal (will "
 "be added to your recall list)"
@@ -6123,67 +6274,67 @@ msgstr ""
 #. [dummy]: id=steppe_bravado
 #. [leadership]: id=steppe_bravado
 #. [unstore_unit]
-#: utils/abilities_kingdom.cfg:789 utils/abilities_kingdom.cfg:1846
+#: utils/abilities_kingdom.cfg:844 utils/abilities_kingdom.cfg:1917
 #: utils/abilities_slav.cfg:1562
 msgid "bravado"
 msgstr "бравада"
 
 #. [unstore_unit]
-#: utils/abilities_kingdom.cfg:883
+#: utils/abilities_kingdom.cfg:938
 msgid "new attack"
 msgstr "новая атака"
 
 #. [value]
-#: utils/abilities_kingdom.cfg:1038
+#: utils/abilities_kingdom.cfg:1100
 msgid ""
-"$this_item.name| - costs <span color='#cccc33'>$this_item.cost|</span> gold"
+"$this_item.name| - costs <span color='#cccc33'>$tmp_vassal_cost|</span> gold"
 msgstr ""
 "$this_item.name| - стоит <span color='#cccc33'>$this_item.cost|</span> "
 "золотых"
 
 #. [dummy]: id=steppe_mercenary
-#: utils/abilities_kingdom.cfg:1096
+#: utils/abilities_kingdom.cfg:1158
 msgid "mercenary"
 msgstr "наёмник"
 
 #. [dummy]: id=steppe_mercenary
-#: utils/abilities_kingdom.cfg:1097
+#: utils/abilities_kingdom.cfg:1159
 msgid ""
-"This unit doesn't cost upkeep, but instead takes gold directly (level plus "
-"1). If the unit's side doesn't have enough gold to pay, the mercenary's "
-"attacks all become defend-only for one turn. Leaders are unaffected."
+"This unit doesn't cost upkeep, but instead takes gold directly. If the "
+"unit's side doesn't have enough gold to pay, the mercenary's attacks all "
+"become defend-only for one turn. Leaders are unaffected."
 msgstr ""
-"Этот юнит не имеет содержания, но берет золото прямо у вас (уровень плюс 1). "
+"Этот юнит не имеет содержания, но берет золото прямо у вас (равно уровню). "
 "Если у стороны юнита недостаточно золота, то все атаки юнита получают "
 "особенность 'только-защита' на один ход. На лидеров способность не действует."
 
 #. [unstore_unit]
-#: utils/abilities_kingdom.cfg:1171
-msgid "-8g"
-msgstr "-8 золотых"
+#: utils/abilities_kingdom.cfg:1243
+msgid "-$tmp_ringleader_upkeep|g"
+msgstr "-$tmp_ringleader_upkeep| золота"
 
 #. [unstore_unit]
-#: utils/abilities_kingdom.cfg:1185 utils/abilities_kingdom.cfg:1284
+#: utils/abilities_kingdom.cfg:1257 utils/abilities_kingdom.cfg:1355
 msgid "Unpaid"
 msgstr "Неоплачен"
 
 #. [unstore_unit]
-#: utils/abilities_kingdom.cfg:1245
+#: utils/abilities_kingdom.cfg:1316
 msgid "No upkeep"
 msgstr "Без содержания"
 
 #. [unstore_unit]
-#: utils/abilities_kingdom.cfg:1271
+#: utils/abilities_kingdom.cfg:1342
 msgid "-$tmp_mercenary_cost|g"
 msgstr "-$tmp_mercenary_cost|золотых"
 
 #. [dummy]: id=steppe_sermon
-#: utils/abilities_kingdom.cfg:1327
+#: utils/abilities_kingdom.cfg:1398
 msgid "sermon"
 msgstr "проповедь"
 
 #. [dummy]: id=steppe_sermon
-#: utils/abilities_kingdom.cfg:1328
+#: utils/abilities_kingdom.cfg:1399
 msgid ""
 "Each turn, this unit increases the faith of adjacent allies (takes 3 turns "
 "to increase faith by 1). Doesn't work on non-living units. Units can only be "
@@ -6194,20 +6345,20 @@ msgstr ""
 "один раз за ход."
 
 #. [unstore_unit]
-#: utils/abilities_kingdom.cfg:1433
+#: utils/abilities_kingdom.cfg:1504
 msgid "faith increased!"
 msgstr "вера усилена!"
 
 #. [dummy]: id=steppe_malediction
 #. [dummy]: id=stepped_cursed_malediction
 #. [set_variable]
-#: utils/abilities_kingdom.cfg:1570 utils/abilities_kingdom.cfg:1584
-#: utils/abilities_kingdom.cfg:1610 utils/abilities_kingdom.cfg:1662
+#: utils/abilities_kingdom.cfg:1641 utils/abilities_kingdom.cfg:1655
+#: utils/abilities_kingdom.cfg:1681 utils/abilities_kingdom.cfg:1733
 msgid "malediction"
 msgstr "проклятье церкви"
 
 #. [dummy]: id=stepped_cursed_malediction
-#: utils/abilities_kingdom.cfg:1571
+#: utils/abilities_kingdom.cfg:1642
 msgid ""
 "Enemy units have a higher chance to hit this unit based on their faith level "
 "(5% bonus chance to hit per 1 faith)"
@@ -6216,7 +6367,7 @@ msgstr ""
 "от их веры (+5% за каждый уровень веры)."
 
 #. [dummy]: id=steppe_malediction
-#: utils/abilities_kingdom.cfg:1585
+#: utils/abilities_kingdom.cfg:1656
 msgid ""
 "This unit applies the 'malediction' effect to the target enemy for a turn. "
 "Allies have a higher chance to hit the enemy based on their own faith level "
@@ -6226,57 +6377,56 @@ msgstr ""
 "бонус к точности атаки в зависимости от их веры (+5% за каждую единицу веры)."
 
 #. [leadership]: id=steppe_pope
-#: utils/abilities_kingdom.cfg:1801
-#, fuzzy
+#: utils/abilities_kingdom.cfg:1872
 msgid "pope"
-msgstr "Папа Огрский"
+msgstr "папа огрский"
 
 #. [leadership]: id=steppe_pope
-#: utils/abilities_kingdom.cfg:1802
+#: utils/abilities_kingdom.cfg:1873
 msgid ""
-"Adjacent allies deal +10% damage per faith level. Stacks with leadership."
+"Adjacent allies deal +15% damage per faith level. Stacks with leadership."
 msgstr ""
-"Союзники наносят на 10% урона больше за каждый уровень веры. Суммируется с "
+" Союзники наносят на 15% урона больше за каждый уровень веры. Суммируется с "
 "лидерством. "
 
 #. [dummy]: id=steppe_loyal_bishop
-#: utils/abilities_kingdom.cfg:1819
+#: utils/abilities_kingdom.cfg:1890
 msgid "loyal bishop"
-msgstr "Преданный епископ"
+msgstr "преданный епископ"
 
 #. [dummy]: id=steppe_loyal_bishop
-#: utils/abilities_kingdom.cfg:1820
+#: utils/abilities_kingdom.cfg:1891
 msgid "This unit increases the faith of newly-recruited units by 1."
 msgstr "Этот юнит увеличивает уровень завербованных бойцов на 1."
 
 #. [dummy]: id=steppe_mercenary_ringleader
-#: utils/abilities_kingdom.cfg:1837
+#: utils/abilities_kingdom.cfg:1908
 msgid "mercenary ringleader"
 msgstr "командир наёмников"
 
 #. [dummy]: id=steppe_mercenary_ringleader
-#: utils/abilities_kingdom.cfg:1838
+#: utils/abilities_kingdom.cfg:1909
 msgid ""
-"This unit takes 8 gold per turn, but other mercenaries won't take gold while "
-"this unit is paid."
+"This unit takes gold per turn equal to the income of 4 villages, but other "
+"mercenaries won't take gold while this unit is paid."
 msgstr ""
-"Этот юнит берет 8 золота каждый ход, но другие наемники не берут золото пока "
-"услуги командира оплачены."
+"Этот юнит берет золото каждый ход, равное доходу четырех деревень, но другие "
+"наемники не берут золото пока услуги командира оплачены."
 
 #. [dummy]: id=steppe_bravado
-#: utils/abilities_kingdom.cfg:1847
+#: utils/abilities_kingdom.cfg:1918
 msgid ""
 "This unit gives firststrike to all allies in a 2-tile radius for one turn "
 "each turn."
 msgstr "Каждый ход этот юнит дает 'бьет первым' союзникам в радиусе 2 гексов."
 
 #. [dummy]: id=steppe_highwayman
-#: utils/abilities_kingdom.cfg:1855
+#: utils/abilities_kingdom.cfg:1926
 msgid "highwayman"
 msgstr "лихой разбойник"
 
 #. [dummy]: id=steppe_highwayman
-#: utils/abilities_kingdom.cfg:1856
+#: utils/abilities_kingdom.cfg:1927
 msgid ""
 "Each turn, this unit gives all adjacent allies a melee fire attack for the "
 "rest of the scenario. The strength of the attack depends on unit level."
@@ -6285,46 +6435,46 @@ msgstr ""
 "этот бой. Сила атаки зависит от уровня."
 
 #. [heals]: id=steppe_faith_healing
-#: utils/abilities_kingdom.cfg:1888
+#: utils/abilities_kingdom.cfg:1959
 msgid "faith healing"
 msgstr "святое исцеление"
 
 #. [heals]: id=steppe_faith_healing
-#: utils/abilities_kingdom.cfg:1889
+#: utils/abilities_kingdom.cfg:1960
 msgid ""
-"Heals adjacent allies by 4 HP per point of their faith (up to +16 hp). Does "
+"Heals adjacent allies by 4 HP per point of their faith (up to +12 hp). Does "
 "not cure poison."
 msgstr ""
 "Этот юнит лечит окружающих союзников на 4 ЗД за каждый уровень их веры "
-"(вплоть до +16). Не исцеляет яд."
+"(вплоть до +12). Не исцеляет яд."
 
 #. [leadership]: id=steppe_pride
-#: utils/abilities_kingdom.cfg:2100
+#: utils/abilities_kingdom.cfg:2172
 msgid "pride {VALUE}%"
 msgstr "гордыня {VALUE}%"
 
 #. [leadership]: id=steppe_pride
-#: utils/abilities_kingdom.cfg:2101
+#: utils/abilities_kingdom.cfg:2173
 msgid ""
 "This unit's pride is so intense that it makes adjacent adjacent ally units' "
-"damage by "
+"damage reduced by "
 msgstr ""
 "Гордыня этого юнита мешает ему взаимодействовать с союзниками. Урон стоящих "
-"рядом союзников уменьшается. "
+"рядом союзников уменьшается на "
 
 #. [dummy]: id=steppe_soul_flame
-#: utils/abilities_kingdom.cfg:2120
+#: utils/abilities_kingdom.cfg:2192
 msgid "soul flame"
 msgstr "огонь души"
 
 #. [dummy]: id=steppe_soul_flame
-#: utils/abilities_kingdom.cfg:2121
+#: utils/abilities_kingdom.cfg:2193
 msgid ""
-"Each turn this unit deals 2 fire to all adjacent units, even allies. This "
-"can't kill."
+"Each turn this unit deals 2 plus unit level fire to all adjacent units, even "
+"allies. This can't kill."
 msgstr ""
-"Каждый ход огонь души наносит всем бойцам вокруг (и союзникам тоже) 2 урона. "
-"Эта способность не может убить."
+"Каждый ход огонь души наносит всем бойцам вокруг (и союзникам тоже) урон "
+"равный 2 плюс уровень юнита. Эта способность не может убить."
 
 #. [dummy]: id=steppe_stun
 #: utils/abilities_misc.cfg:40
@@ -6390,8 +6540,18 @@ msgstr ""
 msgid " gold each turn if standing on an owned village."
 msgstr ""
 
+#. [unstore_unit]
+#: utils/abilities_misc.cfg:618
+msgid "{NUMBER}g"
+msgstr "{NUMBER} золота"
+
 #. [dummy]: id=steppe_scavenger
-#: utils/abilities_misc.cfg:647
+#: utils/abilities_misc.cfg:642
+msgid "scavenger"
+msgstr "падальщик"
+
+#. [dummy]: id=steppe_scavenger
+#: utils/abilities_misc.cfg:643
 msgid ""
 "Whenever this unit kills a living enemy, it heals itself by 25% of the "
 "enemy's max health."
@@ -6400,14 +6560,14 @@ msgstr ""
 "запаса здоровья убитого врага. "
 
 #. [lua]
-#: utils/abilities_misc.cfg:708
+#: utils/abilities_misc.cfg:704
 msgid ""
 "Stunned: This unit is stunned. It does not have a ZoC until the end of this "
 "turn."
 msgstr "Оглушен: этот боец теряет зоны контроля до конца этого хода. "
 
 #. [lua]
-#: utils/abilities_misc.cfg:726
+#: utils/abilities_misc.cfg:722
 msgid ""
 "Incinerated: This unit is on fire. It takes 12 fire damage (can kill) each "
 "turn. This can be removed by standing in a village or in water."
@@ -6416,7 +6576,7 @@ msgstr ""
 "ход. Поджог можно сбросить с помощью воды, деревни или лекаря. "
 
 #. [lua]
-#: utils/abilities_misc.cfg:744
+#: utils/abilities_misc.cfg:740
 msgid ""
 "Paralyzed: This unit is paralyzed. Its attacks all have 1 strike each, and "
 "its defense on all terrain is reduced by 10%."
@@ -6424,34 +6584,34 @@ msgstr ""
 "Парализован: число атак этого бойца снижено до 1, а защита на местности "
 "снижена на 10%."
 
-#: utils/abilities_misc.cfg:761
+#: utils/abilities_misc.cfg:757
 msgid "If this unit is slowed, the effect wears off at the end of the attack."
 msgstr "Замедление сбрасывается в конце атаки."
 
 #. [dummy]: id=unslowable, description=If this unit is slowed, the effect wears off at the end of the attack.
-#: utils/abilities_misc.cfg:766
+#: utils/abilities_misc.cfg:762
 msgid "unslowable"
 msgstr "незамедляемый"
 
 #. [resistance]: id=protected{NUMBER}
-#: utils/abilities_misc.cfg:810
+#: utils/abilities_misc.cfg:806
 msgid ""
 "This unit’s resistances (blade,pierce,impact,fire and cold, but not arcane) "
 "are increased by "
 msgstr "Сопротивления юнита (все, кроме мистического) увеличены на"
 
 #. [resistance]: id=protected{NUMBER}
-#: utils/abilities_misc.cfg:810
+#: utils/abilities_misc.cfg:806
 msgid "% (up to 60%). However, this effect wears off after a turn."
 msgstr "% (вплоть до 60%). Эффект действует до конца хода. "
 
 #. [heals]: id=healing
-#: utils/abilities_misc.cfg:821
+#: utils/abilities_misc.cfg:817
 msgid "heals +{VALUE}"
 msgstr "лечит +{VALUE}"
 
 #. [heals]: id=healing
-#: utils/abilities_misc.cfg:822
+#: utils/abilities_misc.cfg:818
 msgid ""
 "This unit heals adjacent units by {VALUE} HP per turn, or stops poison from "
 "taking effect for that turn."
@@ -6459,12 +6619,12 @@ msgstr ""
 "Этот юнит лечит окружающих союзников на {VALUE} ЗД за ход, и замедляет яд."
 
 #. [regenerate]: id=regeneratessteppe{VALUE}
-#: utils/abilities_misc.cfg:844
+#: utils/abilities_misc.cfg:840
 msgid "regenerates +{VALUE}"
 msgstr "регенерация +{VALUE}"
 
 #. [regenerate]: id=regeneratessteppe{VALUE}
-#: utils/abilities_misc.cfg:845
+#: utils/abilities_misc.cfg:841
 msgid ""
 "The unit will heal itself {VALUE} HP per turn. If it is poisoned, it will "
 "remove the poison instead of healing."
@@ -6473,12 +6633,12 @@ msgstr ""
 "яд вместо лечения."
 
 #. [regenerate]: id=regeneratessteppe{VALUE}
-#: utils/abilities_misc.cfg:857
+#: utils/abilities_misc.cfg:853
 msgid "lesser regenerates +{VALUE}"
 msgstr "меньшая регенерация +{VALUE}"
 
 #. [regenerate]: id=regeneratessteppe{VALUE}
-#: utils/abilities_misc.cfg:858
+#: utils/abilities_misc.cfg:854
 msgid ""
 "The unit will heal itself {VALUE} HP per turn.  This ability will not cure "
 "an affected unit of poison, however, only delay its effect."
@@ -6487,71 +6647,76 @@ msgstr ""
 "замедляется, но не убирается."
 
 #. [damage]: id=steppe_block{VALUE}
-#: utils/abilities_misc.cfg:867
+#: utils/abilities_misc.cfg:863
 msgid "block"
 msgstr ""
 
 #. [damage]: id=steppe_block{VALUE}
-#: utils/abilities_misc.cfg:868
+#: utils/abilities_misc.cfg:864
 msgid "This attack reduces the opponent attack's damage by {VALUE}%"
 msgstr ""
 
 #. [chance_to_hit]: id=reliable
-#: utils/abilities_misc.cfg:884
+#: utils/abilities_misc.cfg:880
 msgid "reliable"
 msgstr "надежный"
 
+#. [chance_to_hit]: id=reliable
+#: utils/abilities_misc.cfg:881
+msgid "When used offensively, this attack's chance to hit is increased by 10%."
+msgstr "При атаке точность увеличивается на 10%."
+
 #. [chance_to_hit]: id=unreliable
-#: utils/abilities_misc.cfg:895
+#: utils/abilities_misc.cfg:891
 msgid "unreliable"
 msgstr "ненадежный"
 
 #. [chance_to_hit]: id=unreliable
-#: utils/abilities_misc.cfg:896
+#: utils/abilities_misc.cfg:892
 msgid "This attack's chance to hit is reduced by 10%."
 msgstr "Точность атаки при нападении увеличена на 10%"
 
 #. [leadership]: id=lesser_leadership
-#: utils/abilities_misc.cfg:908
+#: utils/abilities_misc.cfg:904
 msgid "lesser leadership"
-msgstr ""
+msgstr "низшее лидерство"
 
 #. [leadership]: id=lesser_leadership
-#: utils/abilities_misc.cfg:909
+#: utils/abilities_misc.cfg:905
 msgid ""
 "Works like normal leadership, except the damage bonus is only 15% per level."
 msgstr ""
 "Работает как обычное лидерство, но увеличивает урон только на 15% за уровень."
 
 #. [disable]: id=steppe_attack_only
-#: utils/abilities_misc.cfg:934
+#: utils/abilities_misc.cfg:930
 msgid "attack-only"
 msgstr "только атака"
 
 #. [disable]: id=steppe_attack_only
-#: utils/abilities_misc.cfg:935
+#: utils/abilities_misc.cfg:931
 msgid "This attack can only be used offensively."
 msgstr "Эта атака может использоваться только в нападении."
 
 #. [disable]: id=steppe_defense_only
 #. [disable]: id=steppe_defense_only2
-#: utils/abilities_misc.cfg:943 utils/abilities_misc.cfg:953
+#: utils/abilities_misc.cfg:939 utils/abilities_misc.cfg:949
 msgid "defense-only"
 msgstr "только защита"
 
 #. [disable]: id=steppe_defense_only
 #. [disable]: id=steppe_defense_only2
-#: utils/abilities_misc.cfg:944 utils/abilities_misc.cfg:954
+#: utils/abilities_misc.cfg:940 utils/abilities_misc.cfg:950
 msgid "This attack can only be used defensively."
 msgstr "Эта атака может использоваться только при защите."
 
 #. [chance_to_hit]: id=steppe_focused
-#: utils/abilities_misc.cfg:983
+#: utils/abilities_misc.cfg:979
 msgid "focused"
 msgstr "концентрация"
 
 #. [chance_to_hit]: id=steppe_focused
-#: utils/abilities_misc.cfg:984
+#: utils/abilities_misc.cfg:980
 msgid ""
 "This attack always has a 80% chance to hit regardless of the defensive "
 "ability of the unit being attacked."
@@ -6559,28 +6724,28 @@ msgstr ""
 "Эта атака всегда имеет 80% шанс попасть, несмотря на защиту противника."
 
 #. [damage]: id=steppe_block{PERCENTAGE}
-#: utils/abilities_misc.cfg:993
+#: utils/abilities_misc.cfg:989
 msgid "block {PERCENTAGE}%"
-msgstr ""
+msgstr "защита {PERCENTAGE}%"
 
 #. [damage]: id=steppe_block{PERCENTAGE}
-#: utils/abilities_misc.cfg:994
+#: utils/abilities_misc.cfg:990
 msgid "This attack reduces the opponent attack's damage by {PERCENTAGE}%"
-msgstr ""
+msgstr "Эта атака уменьшает урон атаки врага на {PERCENTAGE}%"
 
 #. [disable]: id=overwhelm
-#: utils/abilities_misc.cfg:1010
+#: utils/abilities_misc.cfg:1006
 msgid "overwhelm"
 msgstr "внезапный"
 
 #. [disable]: id=overwhelm
-#: utils/abilities_misc.cfg:1011
+#: utils/abilities_misc.cfg:1007
 msgid ""
 "When used offensively, this attack makes the opponent unable to retaliate."
 msgstr "При нападении, противник не может дать сдачу."
 
 #. [dummy]: id=steppe_trample
-#: utils/abilities_misc.cfg:1021
+#: utils/abilities_misc.cfg:1017
 msgid ""
 "On offense, this unit moves to the tile behind the opponent after the "
 "attack. This does not work if that tile is either occupied or impassable."
@@ -6589,12 +6754,12 @@ msgstr ""
 "эта клетка занята или непроходима."
 
 #. [leadership]: id=steppe_antisocial
-#: utils/abilities_misc.cfg:1284
+#: utils/abilities_misc.cfg:1281
 msgid "antisocial {VALUE}%"
 msgstr "угрюмый"
 
 #. [leadership]: id=steppe_antisocial
-#: utils/abilities_misc.cfg:1285
+#: utils/abilities_misc.cfg:1282
 msgid ""
 "This unit is quite disliked by others, and will reduce adjacent ally units' "
 "damage by "
@@ -6604,12 +6769,12 @@ msgstr ""
 "угрюмых юнитов."
 
 #. [hitandrun]: id=steppe_hitandrun
-#: utils/abilities_misc.cfg:1308 utils/abilities_misc.cfg:1335
+#: utils/abilities_misc.cfg:1305 utils/abilities_misc.cfg:1332
 msgid "hit and run "
-msgstr "ударил-убежал"
+msgstr "ударил-убежал "
 
 #. [hitandrun]: id=steppe_hitandrun
-#: utils/abilities_misc.cfg:1309 utils/abilities_misc.cfg:1336
+#: utils/abilities_misc.cfg:1306 utils/abilities_misc.cfg:1333
 msgid ""
 "This unit gains {VALUE} additional moves back after attacking, but cannot "
 "attack again."
@@ -6618,17 +6783,17 @@ msgstr ""
 "атаковать."
 
 #. [unstore_unit]
-#: utils/abilities_misc.cfg:1325 utils/abilities_misc.cfg:1352
+#: utils/abilities_misc.cfg:1322 utils/abilities_misc.cfg:1349
 msgid "+$unit.abilities.hitandrun.moves| movepoints"
 msgstr "+$unit.abilities.hitandrun.moves| movepoints"
 
 #. [leadership]: id=steppe_awe
-#: utils/abilities_misc.cfg:1371
+#: utils/abilities_misc.cfg:1368
 msgid "awe"
 msgstr "страх"
 
 #. [leadership]: id=steppe_awe
-#: utils/abilities_misc.cfg:1372
+#: utils/abilities_misc.cfg:1369
 msgid ""
 "Enemies adjacent to this unit deal 15% less damage per level difference. "
 "Does not affect non-living or fearless units."
@@ -6637,12 +6802,12 @@ msgstr ""
 "работает на неживых или бесстрашных юнитов."
 
 #. [chance_to_hit]: id=steppe_hyperfocused
-#: utils/abilities_misc.cfg:1392
+#: utils/abilities_misc.cfg:1389
 msgid "hyperfocused"
 msgstr "сверхконцентрация"
 
 #. [chance_to_hit]: id=steppe_hyperfocused
-#: utils/abilities_misc.cfg:1393
+#: utils/abilities_misc.cfg:1390
 msgid ""
 "This attack always has a 90% chance to hit regardless of the defensive "
 "ability of the unit being attacked."
@@ -6650,27 +6815,32 @@ msgstr ""
 "Эта атака всегда имеет 90% шанс попасть, несмотря на защиту противника."
 
 #. [dummy]: id=steppe_upkeepless
-#: utils/abilities_misc.cfg:1402
+#: utils/abilities_misc.cfg:1399
 msgid "upkeepless"
 msgstr "без содержания"
 
 #. [dummy]: id=steppe_upkeepless
-#: utils/abilities_misc.cfg:1403
+#: utils/abilities_misc.cfg:1400
 msgid "This unit costs no upkeep."
-msgstr "Этот юнит не тратит содержание с деревень"
+msgstr "Этот юнит не тратит содержание с деревень."
 
 #. [dummy]: id=steppe_upkeep{VALUE}
-#: utils/abilities_misc.cfg:1437
+#: utils/abilities_misc.cfg:1433
+msgid "upkeep {VALUE}"
+msgstr "содержание {VALUE}%"
+
+#. [dummy]: id=steppe_upkeep{VALUE}
+#: utils/abilities_misc.cfg:1434
 msgid "This unit costs {VALUE} upkeep instead of the amount equal to level."
 msgstr "Этот юнит тратит {VALUE} содержания вместо равного уровню."
 
 #. [damage]: id=steppe_area_effect_random
-#: utils/abilities_misc.cfg:1622
+#: utils/abilities_misc.cfg:1619
 msgid "area of effect {DAMAGEMULT}%/{CHANCETOHIT}%"
 msgstr "урон по области {DAMAGEMULT}%/{CHANCETOHIT}%"
 
 #. [damage]: id=steppe_area_effect_random
-#: utils/abilities_misc.cfg:1623
+#: utils/abilities_misc.cfg:1620
 msgid ""
 "When this attack is used, random enemies ({CHANCETOHIT}% chance to hit) "
 "adjacent to the target take {DAMAGEMULT}% of the basic damage. Does not work "
@@ -6681,22 +6851,23 @@ msgstr ""
 "защите."
 
 #. [damage]: id=steppe_custom_backstab{MULT}
-#: utils/abilities_misc.cfg:1767 utils/abilities_misc.cfg:1768
+#: utils/abilities_misc.cfg:1764 utils/abilities_misc.cfg:1765
 msgid "backstab {PERCENTAGE}%"
-msgstr ""
+msgstr "бьет в спину {PERCENTAGE}%"
 
 #. [damage]: id=steppe_custom_backstab{MULT}
-#: utils/abilities_misc.cfg:1769
+#: utils/abilities_misc.cfg:1766
 msgid "Like backstab, but deals {PERCENTAGE}% more damage instead of doubling."
 msgstr ""
+"Как бьет в спину, но наносит {PERCENTAGE}% больше урона вместо двойного"
 
 #. [illuminates]: id=steppe_darkens
-#: utils/abilities_misc.cfg:1790
+#: utils/abilities_misc.cfg:1787
 msgid "darkens"
 msgstr "аура тьмы"
 
 #. [illuminates]: id=steppe_darkens
-#: utils/abilities_misc.cfg:1791
+#: utils/abilities_misc.cfg:1788
 msgid ""
 "This unit darkens the surrounding area, making chaotic units fight better, "
 "and lawful units fight worse.\n"
@@ -6711,12 +6882,12 @@ msgstr ""
 "сумерки, и дерётся в сумерки так, как если бы дрался днём."
 
 #. [chance_to_hit]: id=steppe_always_hits
-#: utils/abilities_misc.cfg:1800
+#: utils/abilities_misc.cfg:1797
 msgid "always hits"
 msgstr "всегда попадает"
 
 #. [chance_to_hit]: id=steppe_always_hits
-#: utils/abilities_misc.cfg:1801
+#: utils/abilities_misc.cfg:1798
 msgid ""
 "This attack always has a 100% chance to hit regardless of the defensive "
 "ability of the unit being attacked."
@@ -6724,22 +6895,22 @@ msgstr ""
 "Эта атака всегда имеет 100% шанс попасть, несмотря на защиту противника."
 
 #. [berserk]: id=steppe_offense_berserk
-#: utils/abilities_misc.cfg:1812
+#: utils/abilities_misc.cfg:1809
 msgid "offense berserk"
-msgstr ""
+msgstr "атакующий берсерк"
 
 #. [berserk]: id=steppe_offense_berserk
-#: utils/abilities_misc.cfg:1813
+#: utils/abilities_misc.cfg:1810
 msgid "Like berserk, but only works on offense."
-msgstr ""
+msgstr "Как берсерк, но работает только при нападении"
 
 #. [illuminates]: id=lesser_illumination
-#: utils/abilities_misc.cfg:1827
+#: utils/abilities_misc.cfg:1824
 msgid "lesser illuminates"
 msgstr "меньшее освещение"
 
 #. [illuminates]: id=lesser_illumination
-#: utils/abilities_misc.cfg:1828
+#: utils/abilities_misc.cfg:1825
 msgid ""
 "Works like illuminates, except it makes the time of day 15% brighter instead "
 "of 25%."
@@ -6747,63 +6918,66 @@ msgstr ""
 "Работает как обычное освещение, но изменяет силу юнитов на 15% вместо 25%."
 
 #. [drains]: id=steppe_custom_drain{PERCENTAGE}
-#: utils/abilities_misc.cfg:1838
+#: utils/abilities_misc.cfg:1835
 msgid "drain {PERCENTAGE}%"
 msgstr "вампиризм {PERCENTAGE}%"
 
 #. [drains]: id=steppe_custom_drain{PERCENTAGE}
-#: utils/abilities_misc.cfg:1839
+#: utils/abilities_misc.cfg:1836
 msgid "Like drain, but heals by {PERCENTAGE}% instead of 50%."
 msgstr ""
 "Как обычное высасывание, но лечит на {PERCENTAGE}% от нанесенного урона "
 "вместо 50%."
 
 #. [berserk]: id=steppe_custom_berserk{VALUE}
-#: utils/abilities_misc.cfg:1849
+#: utils/abilities_misc.cfg:1846
 msgid "berserk {VALUE}"
-msgstr ""
+msgstr "берсерк {VALUE}"
 
 #. [berserk]: id=steppe_custom_berserk{VALUE}
-#: utils/abilities_misc.cfg:1850
+#: utils/abilities_misc.cfg:1847
 msgid "Like berserk, but units fight {VALUE} times instead of 30."
-msgstr ""
+msgstr "Как берсерк, но юниті бьются {VALUE} раз вместо 30."
 
 #. [damage]: id=steppe_desperate
-#: utils/abilities_misc.cfg:1873
+#: utils/abilities_misc.cfg:1870
 msgid "This attack deals 10% more damage for each 10% HP the unit is missing."
 msgstr ""
+"Эта атака наносит 10% больше урона за каждые 10% нехватающего ЗД юнита."
 
 #. [dummy]: id=steppe_resolute
-#: utils/abilities_misc.cfg:1890
+#: utils/abilities_misc.cfg:1887
 msgid "resolute"
-msgstr ""
+msgstr "непоколебимый"
 
 #. [dummy]: id=steppe_resolute
-#: utils/abilities_misc.cfg:1891
+#: utils/abilities_misc.cfg:1888
 msgid ""
 "When below 60% hitpoints, this unit gains 10% to all resistances and "
 "regenerates 4 hp per turn. When below 30% hitpoints, this unit gains 20% to "
 "all resistances and regenerates 8 hp per turn."
 msgstr ""
+"Когда ЗД этого бойца ниже 60% он получает +10% ко всем сопротивлениям и "
+"регенерирует 4 ЗД за ход. Когда ЗД этого бойца ниже 30% он получает +20% ко "
+"всем сопротивлениям и регенерирует 8 ЗД за ход. "
 
 #. [leadership]: id=steppe_weakened
-#: utils/abilities_misc.cfg:1943
+#: utils/abilities_misc.cfg:1941
 msgid "weakened {VALUE}%"
 msgstr "ослабление {VALUE}%"
 
-#. [leadership]: id=steppe_strengthened
 #. [leadership]: id=steppe_weakened
-#: utils/abilities_misc.cfg:1944 utils/abilities_slav.cfg:1211
-msgid "This unit deals "
-msgstr "Этот юнит "
+#: utils/abilities_misc.cfg:1942
+msgid "This unit deals {VALUE}% less damage."
+msgstr "Этот юнит  наносит {VALUE}% меньше урона"
 
 #. [weaken]: id=steppe_weaken
-#: utils/abilities_misc.cfg:1962
+#: utils/abilities_misc.cfg:1960
 msgid "weaken {NUMBER}%"
 msgstr "ослабляет на {NUMBER}%"
 
 #. [weaken]: id=steppe_weaken
-#: utils/abilities_misc.cfg:1963
+#: utils/abilities_misc.cfg:1961
 msgid ""
 "On hit, this attack reduces the enemy's damage by {NUMBER}% for one turn. "
 "Applying a stronger version of this effect replaces the weaker one,"
@@ -6812,27 +6986,27 @@ msgstr ""
 "сильного ослабления заменит старое ослабление."
 
 #. [resistance]: id=steppe_armorbroken
-#: utils/abilities_misc.cfg:2298
+#: utils/abilities_misc.cfg:2296
 msgid "broken armor "
-msgstr ""
+msgstr "поломанная броня"
 
 #. [resistance]: id=steppe_armorbroken
-#: utils/abilities_misc.cfg:2299
-msgid "This unit’s physical resistances are reduced by "
-msgstr ""
-
-#. [resistance]: id=steppe_armorbroken
-#: utils/abilities_misc.cfg:2299
+#: utils/abilities_misc.cfg:2297
 msgid "%. This effect disappears after a turn."
 msgstr ""
 
-#. [armorbreak]: id=steppe_armorbreak
-#: utils/abilities_misc.cfg:2308
-msgid "armorbreak {NUMBER}%"
+#. [resistance]: id=steppe_armorbroken
+#: utils/abilities_misc.cfg:2297
+msgid "This unit’s physical resistances are reduced by "
 msgstr ""
 
 #. [armorbreak]: id=steppe_armorbreak
-#: utils/abilities_misc.cfg:2309
+#: utils/abilities_misc.cfg:2306
+msgid "armorbreak {NUMBER}%"
+msgstr "ломание брони {NUMBER}%"
+
+#. [armorbreak]: id=steppe_armorbreak
+#: utils/abilities_misc.cfg:2307
 msgid ""
 "On hit, this attack reduces the enemy's physical resistances by {NUMBER}% "
 "for one turn. Applying a stronger version of this effect replaces the weaker "
@@ -6840,12 +7014,12 @@ msgid ""
 msgstr ""
 
 #. [reflect_damage]: id=steppe_reflect_damage
-#: utils/abilities_misc.cfg:2642
+#: utils/abilities_misc.cfg:2640
 msgid "reflect damage "
 msgstr "отражение урона"
 
 #. [reflect_damage]: id=steppe_reflect_damage
-#: utils/abilities_misc.cfg:2643
+#: utils/abilities_misc.cfg:2641
 msgid ""
 "When this unit is hit, {VALUE}% of the damage received is also dealt to the "
 "enemy. This ignores enemy resistances and can kill."
@@ -6854,12 +7028,12 @@ msgstr ""
 "сопротивления врага, и может убить."
 
 #. [leadership]: id=steppe_inspire
-#: utils/abilities_misc.cfg:2761
+#: utils/abilities_misc.cfg:2759
 msgid "inspire"
 msgstr "вдохновляет"
 
 #. [leadership]: id=steppe_inspire
-#: utils/abilities_misc.cfg:2762
+#: utils/abilities_misc.cfg:2760
 msgid ""
 "Adjacent allies deal more damage - 15% if the same level, 30% if one level "
 "lower, 45% if two levels lower, etc."
@@ -6868,26 +7042,41 @@ msgstr ""
 "30% если на уровень ниже, 45% если на два уровня ниже и т.д."
 
 #. [mentor]: id=steppe_mentor
-#: utils/abilities_misc.cfg:2775
+#: utils/abilities_misc.cfg:2773
 msgid "mentor "
 msgstr "наставник"
 
 #. [mentor]: id=steppe_mentor
-#: utils/abilities_misc.cfg:2776
+#: utils/abilities_misc.cfg:2774
 msgid "Each turn, this unit gives adjacent allies +{VALUE} experience."
 msgstr "Каждый ход этот боец даёт союзникам +{VALUE} опыта."
 
 #. [regenerate]: id=self_unpoison
-#: utils/abilities_misc.cfg:2872
+#: utils/abilities_misc.cfg:2870
 msgid "self-unpoison"
 msgstr "самоисцеление"
 
 #. [regenerate]: id=self_unpoison
-#: utils/abilities_misc.cfg:2873
+#: utils/abilities_misc.cfg:2871
 msgid ""
 "If poisoned, this unit will remove their own poison at the start of each "
 "turn instead of healing."
 msgstr "Если боец отравлен, он исцеляет яд в начале своего хода."
+
+#. [hides]: id=steppe_hide_allies
+#: utils/abilities_misc.cfg:2880 utils/abilities_misc.cfg:2881
+msgid "hide allies"
+msgstr "прячет союзников"
+
+#. [hides]: id=steppe_hillstalk
+#: utils/abilities_misc.cfg:2900
+msgid "hillstalk"
+msgstr "засада в холмах"
+
+#. [hides]: id=steppe_hillstalk
+#: utils/abilities_misc.cfg:2901
+msgid "This unit is invisible on hill/mountain terrain."
+msgstr "Этот боец невидим в холмах и горах."
 
 #. [dummy]: id=steppe_cattle
 #: utils/abilities_ogre.cfg:13
@@ -6997,11 +7186,6 @@ msgstr " $lootgold|золотых"
 msgid "+$tmp_incomebonus| income"
 msgstr "+$tmp_incomebonus| доход"
 
-#. [unstore_unit]
-#: utils/abilities_ogre.cfg:955
-msgid "Freedom!"
-msgstr "Свобода!"
-
 #. [dummy]: id=steppe_capture
 #: utils/abilities_ogre.cfg:1027
 msgid "capture"
@@ -7080,9 +7264,19 @@ msgstr ""
 "10% бонус сопротивления ко всем типам урона (30% максимум)."
 
 #. [dummy]: id=depleting{NUMBER}
+#: utils/abilities_ogre.cfg:1632
+msgid "depleting -"
+msgstr "истощение"
+
+#. [dummy]: id=depleting{NUMBER}
 #: utils/abilities_ogre.cfg:1633
 msgid " hp each turn. Like poison, this ability cannot kill the unit."
 msgstr "урона каждый ход. Как яд, эта способностсь не может убить юнита."
+
+#. [dummy]: id=thunderstrike{NUMBER}
+#: utils/abilities_ogre.cfg:1691
+msgid "thunderstrike "
+msgstr "удар молнией"
 
 #. [dummy]: id=thunderstrike{NUMBER}
 #: utils/abilities_ogre.cfg:1692
@@ -7096,14 +7290,19 @@ msgid " fire damage."
 msgstr "огненного урона."
 
 #. [dummy]: id=lifesteal_aura{NUMBER}
-#: utils/abilities_ogre.cfg:1807
-msgid " HP for each enemy damaged. Like poison, this can't kill."
-msgstr "урона каждому врагу. Как яд, эта способность не может убить."
+#: utils/abilities_ogre.cfg:1806
+msgid "lifesteal aura "
+msgstr "аура высасывания "
 
 #. [dummy]: id=lifesteal_aura{NUMBER}
 #: utils/abilities_ogre.cfg:1807
 msgid "Each turn, this unit deals "
 msgstr "Каждый ход юнит наносит"
+
+#. [dummy]: id=lifesteal_aura{NUMBER}
+#: utils/abilities_ogre.cfg:1807
+msgid " HP for each enemy damaged. Like poison, this can't kill."
+msgstr "урона каждому врагу. Как яд, эта способность не может убить."
 
 #. [hides]: id=steppe_swampstalk
 #: utils/abilities_slav.cfg:31
@@ -7266,6 +7465,11 @@ msgstr ""
 msgid "strengthened {VALUE}%"
 msgstr "усиление {VALUE}%"
 
+#. [leadership]: id=steppe_strengthened
+#: utils/abilities_slav.cfg:1211
+msgid "This unit deals "
+msgstr "Этот юнит "
+
 #. [idol]: id=steppe_idol
 #: utils/abilities_slav.cfg:1221
 msgid "idol {VALUE}%"
@@ -7336,6 +7540,8 @@ msgid ""
 "(rounded down) of this attack's damage, and adjacent allies are healed by "
 "33% (rounded down) of the attack's damage."
 msgstr ""
+"При попадении, враги стоящие возле этого юнита получают урон равный 70% "
+"урона нанесенного цели, а союзники лечатся на 33% нанесенного урона."
 
 #. [observe]: id=steppe_observe
 #: utils/abilities_slav.cfg:2140
@@ -7372,8 +7578,39 @@ msgstr ""
 "Разрушить эту постройку (вернет <span color='#cccc33'>33%</span> золотых, "
 "стоит <span color='#2c9fed'>40%</span> ходов разрушителя)"
 
-#. [build]: id=steppe_build
+#. [unstore_unit]
+#: utils/abilities_slav_building.cfg:270
+msgid "$destroyrefund|g"
+msgstr ""
+
+#. [set_menu_item]: id=building_guide
 #: utils/abilities_slav_building.cfg:294
+msgid "Building guide"
+msgstr "Описания Зданий"
+
+#. [option]: speaker=$able_to_upgrade[$random].id
+#. [value]
+#: utils/abilities_slav_building.cfg:310 utils/abilities_slav_building.cfg:1661
+msgid "attacks/blank-attack.png"
+msgstr ""
+
+#. [value]
+#: utils/abilities_slav_building.cfg:311
+msgid "Return to the game"
+msgstr "Вернутся к игре"
+
+#. [message]
+#: utils/abilities_slav_building.cfg:356
+msgid "Building Guide"
+msgstr "Описания зданий"
+
+#. [message]
+#: utils/abilities_slav_building.cfg:357
+msgid "Which of this unit's buildings do you want to see the description of?"
+msgstr "Описание какого из зданий этого юнита вы хотите увидеть?"
+
+#. [build]: id=steppe_build
+#: utils/abilities_slav_building.cfg:377
 msgid ""
 "This unit can build new units on adjacent tiles via a rightclick menu. This "
 "costs gold and a percentage of their moves. After building, the unit gains "
@@ -7381,27 +7618,30 @@ msgid ""
 "level. You cannot build buildings in deep water, or on unwalkable/impassable "
 "terrain\n"
 "\n"
-msgstr ""
+msgstr "Этот юнит может строить новых юнитов на \n"
 
 #. [set_menu_item]: id=build_{ID}
-#. [set_menu_item]: id=enlist_{TYPE}
-#: utils/abilities_slav_building.cfg:400 utils/abilities_slav_building.cfg:1177
-msgid "price:<span color='#cccc33'>"
-msgstr "цена:<span color='#cccc33'>"
+#: utils/abilities_slav_building.cfg:484
+msgid ""
+" - price:<span color='#cccc33'>{COST}</span> gold and <span "
+"color='#2c9fed'>{MOVESCOST}%</span> moves"
+msgstr ""
+" - цена:<span color='#cccc33'>{COST}</span> золота и <span "
+"color='#2c9fed'>{MOVESCOST}%</span> ходов"
 
 #. [message]: speaker=$able_to_build.id
 #. [message]: speaker=$able_to_upgrade.id
-#: utils/abilities_slav_building.cfg:672 utils/abilities_slav_building.cfg:1537
+#: utils/abilities_slav_building.cfg:758 utils/abilities_slav_building.cfg:1690
 msgid "Not enough gold for this building!"
 msgstr "Недостаточно золота для постройки!"
 
 #. [dummy]: id=steppe_wall{TERRAIN}
-#: utils/abilities_slav_building.cfg:685
+#: utils/abilities_slav_building.cfg:771
 msgid "wall"
 msgstr "стена"
 
 #. [dummy]: id=steppe_wall{TERRAIN}
-#: utils/abilities_slav_building.cfg:686
+#: utils/abilities_slav_building.cfg:772
 msgid ""
 "This unit places castle terrain at its location when created. However, it "
 "turns into the original tile the wall was built on."
@@ -7410,12 +7650,12 @@ msgstr ""
 "местность вернется к изначальной."
 
 #. [dummy]: id=steppe_repair_village
-#: utils/abilities_slav_building.cfg:808
+#: utils/abilities_slav_building.cfg:961
 msgid "repair village"
 msgstr "чинит деревни"
 
 #. [dummy]: id=steppe_repair_village
-#: utils/abilities_slav_building.cfg:809
+#: utils/abilities_slav_building.cfg:962
 msgid ""
 "This unit can repair villages via a rightclick menu when standing in a 1-"
 "tile radius from a village destroyed by the 'pillage' ability. The cost of "
@@ -7426,22 +7666,23 @@ msgstr ""
 "от дохода одной деревни. "
 
 #. [unstore_unit]
-#: utils/abilities_slav_building.cfg:913 utils/abilities_slav_building.cfg:1482
+#: utils/abilities_slav_building.cfg:1066
+#: utils/abilities_slav_building.cfg:1635
 msgid "+$tmp_builder_exp| exp"
 msgstr "+$tmp_builder_exp| опыта"
 
 #. [floating_text]
-#: utils/abilities_slav_building.cfg:988
+#: utils/abilities_slav_building.cfg:1141
 msgid "<span color='#00ff00'>village repaired</span>"
 msgstr "<span color='#00ff00'>деревня отстроена</span>"
 
 #. [message]: speaker=$able_to_repair.id
-#: utils/abilities_slav_building.cfg:1028
+#: utils/abilities_slav_building.cfg:1181
 msgid "Not enough gold for the repair!"
 msgstr "Недостаточно золота для починки!1"
 
 #. [set_menu_item]: id=steppe_repair_village
-#: utils/abilities_slav_building.cfg:1062
+#: utils/abilities_slav_building.cfg:1215
 msgid ""
 "Repair this village - costs <span color='#cccc33'>"
 "$steppe_village_repaircost</span> gold and <span color='#2c9fed'>66%</span> "
@@ -7452,50 +7693,55 @@ msgstr ""
 "ходов."
 
 #. [building_boost_damage]: id=steppe_building_damage_boost
-#: utils/abilities_slav_building.cfg:1123
+#: utils/abilities_slav_building.cfg:1276
 msgid "building damage boost {PERCENTAGE}%"
 msgstr "бонусный урон зданий {PERCENTAGE}%"
 
 #. [building_boost_damage]: id=steppe_building_damage_boost
-#: utils/abilities_slav_building.cfg:1124
+#: utils/abilities_slav_building.cfg:1277
 msgid "Buildings build by this unit have {PERCENTAGE}% more damage"
 msgstr "Здания, построенные этим юнитом, имеют +{PERCENTAGE}% к урону."
 
 #. [building_boost_hitpoint]: id=steppe_building_hitpoint_boost
-#: utils/abilities_slav_building.cfg:1132
+#: utils/abilities_slav_building.cfg:1285
 msgid "building hitpoint boost {PERCENTAGE}%"
 msgstr "бонусная прочность зданий {PERCENTAGE}%"
 
 #. [building_boost_hitpoint]: id=steppe_building_hitpoint_boost
-#: utils/abilities_slav_building.cfg:1133
+#: utils/abilities_slav_building.cfg:1286
 msgid "Buildings build by this unit have {PERCENTAGE}% more HP"
 msgstr "Здания, построенные этим юнитом, имеют +{PERCENTAGE}% к ЗД."
 
 #. [enlist]: id=steppe_enlist{TYPE}, type={TYPE}
-#: utils/abilities_slav_building.cfg:1141
+#: utils/abilities_slav_building.cfg:1294
 msgid "enlist units"
 msgstr ""
 
 #. [enlist]: id=steppe_enlist{TYPE}, type={TYPE}
-#: utils/abilities_slav_building.cfg:1142
+#: utils/abilities_slav_building.cfg:1295
 msgid ""
 "This unit can enlist new units on adjacent tiles via a rightclick menu. This "
 "costs gold equal to recruiting the unit. You cannot enlist units in deep "
 "water, or on unwalkable/impassable terrain"
 msgstr ""
 
+#. [set_menu_item]: id=enlist_{TYPE}
+#: utils/abilities_slav_building.cfg:1330
+msgid "price:<span color='#cccc33'>"
+msgstr "цена:<span color='#cccc33'>"
+
 #. [message]: speaker=narrator
-#: utils/abilities_slav_building.cfg:1301
+#: utils/abilities_slav_building.cfg:1454
 msgid "Not enough gold to enlisting!"
 msgstr ""
 
 #. [upgrade_buildings]: id=steppe_upgrade_buildings
-#: utils/abilities_slav_building.cfg:1321
+#: utils/abilities_slav_building.cfg:1474
 msgid "upgrade buildings {MAX_LEVEL}"
 msgstr "улучшение зданий {MAX_LEVEL}"
 
 #. [upgrade_buildings]: id=steppe_upgrade_buildings
-#: utils/abilities_slav_building.cfg:1322
+#: utils/abilities_slav_building.cfg:1475
 msgid ""
 "This unit can upgrade buildings on adjacent tiles via a rightclick menu. Can "
 "only upgrade units to level {MAX_LEVEL}, and only works on buildings who can "
@@ -7506,12 +7752,12 @@ msgstr ""
 "здания, которые могут продвинуться. "
 
 #. [set_menu_item]: id=steppe_upgrade_buildings
-#: utils/abilities_slav_building.cfg:1343
+#: utils/abilities_slav_building.cfg:1496
 msgid "Upgrade Building (costs gold and moves)"
 msgstr "Улучшить здание (стоит золото и ходы)"
 
 #. [message]: speaker=$able_to_upgrade[$random].id
-#: utils/abilities_slav_building.cfg:1433
+#: utils/abilities_slav_building.cfg:1586
 msgid ""
 "Do you want to upgrade this building for <span color='#cccc33'>"
 "$tmp_steppe_upgradecost|</span> gold and <span color='#2c9fed'>"
@@ -7522,23 +7768,18 @@ msgstr ""
 "span> золотых и <span color='#2c9fed'>$able_to_upgrade[$random].abilities."
 "upgrade_buildings.movescost_percentage|%</span> ходов?"
 
-#. [option]: speaker=$able_to_upgrade[$random].id
-#: utils/abilities_slav_building.cfg:1508
-msgid "attacks/blank-attack.png"
-msgstr ""
-
 #. [message]: speaker=$able_to_upgrade.id
-#: utils/abilities_slav_building.cfg:1564
+#: utils/abilities_slav_building.cfg:1717
 msgid "I'm not skilled enough to upgrade this building!"
 msgstr "Я не достаточно опытен чтобы улучшить это здание!"
 
 #. [light_area]: id=steppe_light_area
-#: utils/abilities_slav_building.cfg:1584
+#: utils/abilities_slav_building.cfg:1737
 msgid "light are {RADIUS}"
 msgstr "Аура света"
 
 #. [light_area]: id=steppe_light_area
-#: utils/abilities_slav_building.cfg:1585
+#: utils/abilities_slav_building.cfg:1738
 msgid ""
 "This unit illuminates tiles in a {RADIUS}-tile radius. Unlike normal "
 "illuminates, this ability sets ToD light to 25% even during night."
@@ -7568,19 +7809,7 @@ msgstr ""
 "На дальнобойные атаки не действуют особенности оружия. Дальнобойную атаку "
 "нельзя использовать по врагам на соседних гексах."
 
-#: utils/longrange_attacks.cfg:116
-msgid "Name:$steppe_RAunit[{NUMBER}].name| "
-msgstr "Имя:$steppe_RAunit[{NUMBER}].name| "
-
-#: utils/longrange_attacks.cfg:116
-msgid " Attacker {NUMBER2}"
-msgstr "Атакующий {NUMBER2}"
-
-#: utils/longrange_attacks.cfg:116
-msgid "$steppe_RAunit[{NUMBER}].variables.type_name| "
-msgstr ""
-
-#: utils/longrange_attacks.cfg:116
+#: utils/longrange_attacks.cfg:117
 msgid ""
 "Attack:$steppe_RAunit[{NUMBER}].attack[$steppe_RAunit[{NUMBER}].attackslot|]."
 "damage|-$steppe_RAunit[{NUMBER}].attack[$steppe_RAunit[{NUMBER}]."
@@ -7590,235 +7819,246 @@ msgstr ""
 "damage|-$steppe_RAunit[{NUMBER}].attack[$steppe_RAunit[{NUMBER}]."
 "attackslot|].number|"
 
+#: utils/longrange_attacks.cfg:117
+msgid "$steppe_RAunit[{NUMBER}].variables.type_name| "
+msgstr ""
+
+#: utils/longrange_attacks.cfg:117
+msgid " Attacker {NUMBER2}"
+msgstr "Атакующий {NUMBER2}"
+
+#: utils/longrange_attacks.cfg:117
+msgid "Name:$steppe_RAunit[{NUMBER}].name| "
+msgstr "Имя:$steppe_RAunit[{NUMBER}].name| "
+
 #. [set_menu_item]: id=steppe_ranged_attack
-#: utils/longrange_attacks.cfg:126
-#, fuzzy
-#| msgid "long-range shot"
+#: utils/longrange_attacks.cfg:127
 msgid "Longranged Attack"
-msgstr "дальнобойный выстрел"
+msgstr "Дальнобойный Выстрел"
 
 #. [message]: speaker=narrator
-#: utils/longrange_attacks.cfg:331
+#: utils/longrange_attacks.cfg:332
 msgid "Who do you want to ranged attack with?"
 msgstr "Кем вы хотите атаковать врага издалека?"
 
 #. [option]: speaker=narrator
-#: utils/longrange_attacks.cfg:333
+#: utils/longrange_attacks.cfg:334
 msgid "Cancel"
 msgstr "Выход"
 
 #. [unstore_unit]
-#: utils/longrange_attacks.cfg:770
+#: utils/longrange_attacks.cfg:771
 msgid "missed!"
 msgstr "промах!"
 
-#: utils/steppe_amla.cfg:4
-msgid " This unit has custom AMLA upgrades."
+#. [special_note]
+#: utils/steppe_amla.cfg:5
+msgid "This unit has custom AMLA upgrades."
 msgstr "Этот юнит имеет уникальные AMLA улучшения. "
 
-#: utils/steppe_amla.cfg:284
+#: utils/steppe_amla.cfg:289
 msgid "+5 Max Hp, +20% XP"
 msgstr "+5 макс. ЗД, +20% опыта"
 
-#: utils/steppe_amla.cfg:303 utils/steppe_amla.cfg:353
+#: utils/steppe_amla.cfg:308 utils/steppe_amla.cfg:358
 msgid "+15% melee damage, +20% XP"
 msgstr "+15% ближнего урона, +20% опыта"
 
-#: utils/steppe_amla.cfg:317
+#: utils/steppe_amla.cfg:322
 msgid "Linebreaker: trample gains stun special, +20% XP"
 msgstr "Разрушитель строя: растоптать получает оглушение, +20% опыта"
 
-#: utils/steppe_amla.cfg:334
+#: utils/steppe_amla.cfg:339
 msgid "+2 spear damage, +20% XP"
 msgstr "+2 урона к копью, +20% опыта"
 
-#: utils/steppe_amla.cfg:367
+#: utils/steppe_amla.cfg:372
 msgid "lesser regenerates +6 is replaced by normal regenerates, +15% XP"
 msgstr "меньшая регенерация +6 заменяется на обычную регенерацию, +15% опыта"
 
-#: utils/steppe_amla.cfg:388 utils/steppe_amla.cfg:1761
+#: utils/steppe_amla.cfg:393 utils/steppe_amla.cfg:1766
 msgid "+1 moves, +20% XP"
 msgstr "+1 ход, +20% опыта"
 
-#: utils/steppe_amla.cfg:401
+#: utils/steppe_amla.cfg:406
 msgid "Ritual Bull: 8-1 cold ranged magical drain attack, +20% XP"
 msgstr ""
 "Ритуальный бык: получает 8-1 дальнюю магическую атаку холодом с "
 "высасыванием, +20% опыта"
 
-#: utils/steppe_amla.cfg:425
+#: utils/steppe_amla.cfg:430
 msgid "+4 drain life damage, +15% XP"
 msgstr "+4 урона к вытягиванию жизни, +15% опыта"
 
-#: utils/steppe_amla.cfg:447
+#: utils/steppe_amla.cfg:452
 msgid "Submission: enslave 3 is replaced by enslave 4, +20% XP"
 msgstr "Повиновение: порабощение 3 заменяется на порабощение 4, +20% опыта"
 
-#: utils/steppe_amla.cfg:465
+#: utils/steppe_amla.cfg:470
 msgid "+15% black fire damage, +15% XP"
 msgstr "+15% урона к проклятому пламени, +15% опыта"
 
-#: utils/steppe_amla.cfg:479
+#: utils/steppe_amla.cfg:484
 msgid "+30% enslavement damage, +15% XP"
 msgstr "+30% урона к порабощению, +15% опыта"
 
-#: utils/steppe_amla.cfg:532
+#: utils/steppe_amla.cfg:537
 msgid "Khagan's Authority: allows the unit to recruit, +15% XP"
 msgstr "Каганская властьy: юнит получает возможность вербовать, +15% опыта"
 
-#: utils/steppe_amla.cfg:554 utils/steppe_amla.cfg:1157
+#: utils/steppe_amla.cfg:559 utils/steppe_amla.cfg:1162
 msgid "+2 melee damage, +20% XP"
 msgstr "+2 ближнего урона, +20% опыта"
 
-#: utils/steppe_amla.cfg:568
+#: utils/steppe_amla.cfg:573
 msgid "+1 moves, +15% XP"
 msgstr "+1 ход, +15% опыта"
 
-#: utils/steppe_amla.cfg:585
+#: utils/steppe_amla.cfg:590
 msgid "claws gain the drain special, +20% XP"
 msgstr "когти получают высасывание, +20% опыта"
 
-#: utils/steppe_amla.cfg:602
+#: utils/steppe_amla.cfg:607
 msgid "+2 wail damage, +20% XP"
 msgstr "+2 урона к воплю, +20% опыта"
 
-#: utils/steppe_amla.cfg:621 utils/steppe_amla.cfg:680
+#: utils/steppe_amla.cfg:626 utils/steppe_amla.cfg:685
 msgid "+20% melee damage, +20% XP"
 msgstr "+20% ближнего урона, +20% опыта"
 
-#: utils/steppe_amla.cfg:635
+#: utils/steppe_amla.cfg:640
 msgid "enslave 1 is replaced by enslave 2, +20% XP"
 msgstr "порабощение 1 заменяется на порабощение 2, +20% опыта"
 
-#: utils/steppe_amla.cfg:653
+#: utils/steppe_amla.cfg:658
 msgid "oversight 33% is replaced by oversight 45%, +20% XP"
 msgstr "надзор 33% заменяется на надзор 45%, +20% опыта"
 
-#: utils/steppe_amla.cfg:694
+#: utils/steppe_amla.cfg:699
 msgid "oversight 15% ability and loyal trait, +20% XP"
 msgstr "надзор 15% и свойство верный, +20% опыта"
 
-#: utils/steppe_amla.cfg:722
+#: utils/steppe_amla.cfg:727
 msgid ""
 "lesser leadership ability and loyal trait, +20% XP (available only when "
 "freed)"
 msgstr ""
 "меньшее лидерство и верность, +20% опыта (работает только когда освобождён)"
 
-#: utils/steppe_amla.cfg:753
+#: utils/steppe_amla.cfg:758
 msgid "+20% ranged damage, +20% XP"
 msgstr "+20% дальнего урона, +20% опыта"
 
-#: utils/steppe_amla.cfg:767
+#: utils/steppe_amla.cfg:772
 msgid ""
 "oversight 15% ability and loyal trait, +20% XP (available only when freed)"
 msgstr ""
 "надзор 15% и свойство верный, +20% опыта (работает только когда освобождён)"
 
-#: utils/steppe_amla.cfg:790
+#: utils/steppe_amla.cfg:795
 msgid "lesser leadership ability and loyal trait, +20% XP"
 msgstr "меньшее лидерство и свойство верный, +20% опыта"
 
-#: utils/steppe_amla.cfg:824
+#: utils/steppe_amla.cfg:829
 msgid "One with Nature: +10% forest defense and ambush ability, +20% XP"
 msgstr ""
 "Единство с природой: +10% защиты в лесу и способность засада, +20% опыта"
 
-#: utils/steppe_amla.cfg:846
+#: utils/steppe_amla.cfg:851
 msgid "Herbal Mastery: heal +8 is replaced by heal +10, +20% XP"
 msgstr "Травное мастерство: лечит +8 заменяется на лечит +10, +20% опыта"
 
-#: utils/steppe_amla.cfg:867
+#: utils/steppe_amla.cfg:872
 msgid "Nature's Cruelty: nature's curse attack gains poison special, +20% XP"
 msgstr "Жестокость природы: проклятье природы получает яд, +20% опыта"
 
-#: utils/steppe_amla.cfg:887
+#: utils/steppe_amla.cfg:892
 msgid "One with the Swamp: +10% swamp defense and swampstalk ability, +20% XP"
 msgstr "Единство с болотом: +10% болотной защиты и засада в болоте, +20% опыта"
 
-#: utils/steppe_amla.cfg:909
+#: utils/steppe_amla.cfg:914
 msgid "+2 swamp fire damage, +20% XP"
 msgstr "+2 урона к болотному огню, +20% опыта"
 
-#: utils/steppe_amla.cfg:923
+#: utils/steppe_amla.cfg:928
 msgid ""
 "Hateful Gaze: +3 evil eye damage, and evil eye gains the stun special, +20% "
 "XP"
 msgstr ""
 "Ненавистный взгляд: +3 урона к сглазу, сглаз получает оглушение, +20% опыта"
 
-#: utils/steppe_amla.cfg:948
+#: utils/steppe_amla.cfg:953
 msgid "Nightstalk ability, +20% XP"
 msgstr "Способность невидимка, +20% опыта"
 
-#: utils/steppe_amla.cfg:963
+#: utils/steppe_amla.cfg:968
 msgid "Pack alpha and skimirsher abilities, +25% XP"
 msgstr "Способность глава стаи и неуловимость, +25% опыта"
 
 #. [leadership]: id=steppe_pack_alpha
-#: utils/steppe_amla.cfg:973
+#: utils/steppe_amla.cfg:978
 msgid "pack alpha"
 msgstr "глава стаи"
 
 #. [leadership]: id=steppe_pack_alpha
-#: utils/steppe_amla.cfg:974
+#: utils/steppe_amla.cfg:979
 msgid "Works like normal leadership, but only works on wolves."
 msgstr "Работает как обычное лидерство, но только на волков."
 
-#: utils/steppe_amla.cfg:997
+#: utils/steppe_amla.cfg:1002
 msgid "+1 melee damage, +20% XP"
 msgstr "+1 ближний урон, +20% опыта"
 
-#: utils/steppe_amla.cfg:1015
+#: utils/steppe_amla.cfg:1020
 msgid "Shadow Poison: bow and arrow dance attacks gain poison special, +20% XP"
 msgstr "Теневой яд: лук и танец стрел получают особенность яд, +20% опыта"
 
-#: utils/steppe_amla.cfg:1036
+#: utils/steppe_amla.cfg:1041
 msgid "Arcane Shield: +10% to all resistances, +20% XP"
 msgstr "Мистический щит: +10% ко всем сопротивлениям, +20% опыта"
 
-#: utils/steppe_amla.cfg:1057
+#: utils/steppe_amla.cfg:1062
 msgid "Lesser Leadership ability, +20% XP"
 msgstr "Меньшее лидерство, +20% опыта"
 
-#: utils/steppe_amla.cfg:1072
+#: utils/steppe_amla.cfg:1077
 msgid "Teleport ability, +20% XP"
 msgstr "Телепорт, +20% опыта"
 
-#: utils/steppe_amla.cfg:1091
+#: utils/steppe_amla.cfg:1096
 msgid "Controlled Rage: berserk now works only on offense, +20% XP"
 msgstr "Обуздать гнев: берсерк работает только при нападении, +20% опыта"
 
-#: utils/steppe_amla.cfg:1110
+#: utils/steppe_amla.cfg:1115
 msgid "Swift Blade: melee gains the reliable special, +20% XP"
 msgstr "Быстрый клинок: ближние атаки получают свойство надёжный, +20% опыта"
 
-#: utils/steppe_amla.cfg:1134
+#: utils/steppe_amla.cfg:1139
 msgid "Bloodlust: drain 33% special on melee, and feeding ability, +20% XP"
 msgstr ""
 "Кровожадность: высасывание 33% на ближние атаки и способность пожиратель, "
 "+20% опыта"
 
-#: utils/steppe_amla.cfg:1178
+#: utils/steppe_amla.cfg:1183
 msgid "Desperate: desperate special on melee, +20% XP"
 msgstr "Отчаянный:ближние атаки получают способность отчаянный, +20% опыта"
 
-#: utils/steppe_amla.cfg:1195
+#: utils/steppe_amla.cfg:1200
 msgid "Bloodlust: drain 30% special on melee, +20% XP"
 msgstr "Кровожадность: высасывает 30% sна ближние атаки, +20% опыта"
 
-#: utils/steppe_amla.cfg:1212 utils/steppe_amla.cfg:1579
+#: utils/steppe_amla.cfg:1217 utils/steppe_amla.cfg:1584
 msgid "Resolute ability, +20% XP"
 msgstr "Способность решительный, +20% опыта"
 
-#: utils/steppe_amla.cfg:1232
+#: utils/steppe_amla.cfg:1237
 msgid ""
 "Blade Mastery: +1 damage and reliable special on sword in human form, +20% XP"
 msgstr ""
 "Мастер клинка: +1 урона и свойство надежный на атаку мечом в форме человека, "
 "+20% опыта"
 
-#: utils/steppe_amla.cfg:1254
+#: utils/steppe_amla.cfg:1259
 msgid ""
 "Bird of Prey: +2 claw damage/+8 beak damage in raven form, and +4 raven "
 "damage in human form, +20% XP"
@@ -7826,47 +8066,51 @@ msgstr ""
 "Свирепая птица: +2 урона когтям/+8 урона клюву, и +4 урона ворону в "
 "человеческой форме, +20% опыта"
 
-#: utils/steppe_amla.cfg:1278
+#: utils/steppe_amla.cfg:1283
 msgid "Nightstalk ability for both forms, +20% XP"
 msgstr "Способность невидимка на обе формы, +20% опыта"
 
-#: utils/steppe_amla.cfg:1293
+#: utils/steppe_amla.cfg:1298
 msgid "Lesser Leadership ability for both forms, +20% XP"
 msgstr "Меньшее лидерство на обе формы, +20% опыта"
 
-#: utils/steppe_amla.cfg:1308
+#: utils/steppe_amla.cfg:1313
 msgid "Footwork: skirmisher ability for human form, +15% XP"
 msgstr "Быстроногий: неуловимость в форме человека, +15% опыта"
 
-#: utils/steppe_amla.cfg:1485
+#: utils/steppe_amla.cfg:1490
 msgid "Healing Light: heal +6 is replaced by heal +9, +20% XP"
 msgstr "Исцеляющий свет: лечит +6 заменяется на лечит +9, +20% опыта"
 
-#: utils/steppe_amla.cfg:1506
+#: utils/steppe_amla.cfg:1511
 msgid "+3 light burst damage, +2 solar flame damage, +20% XP"
 msgstr "+3 урона к вспышке света, +2 урона к солнечному пламени, +20% XP"
 
-#: utils/steppe_amla.cfg:1525
+#: utils/steppe_amla.cfg:1530
 msgid "Light Shield: +20% fire/arcane resistances, +20% XP"
 msgstr "Световой щит: +20% сопротивления к огню/мистическому, +20% опыта"
 
-#: utils/steppe_amla.cfg:1547
-msgid "Marketplace: can build marketplaces, +20% XP"
-msgstr "Может строить рынки, +20% опыта"
-
-#: utils/steppe_amla.cfg:1547
+#: utils/steppe_amla.cfg:1552
 msgid "Build Marketplace"
 msgstr "Построить рынок"
 
-#: utils/steppe_amla.cfg:1554
-msgid "Build Teleporter"
-msgstr "Построить телепорт"
+#: utils/steppe_amla.cfg:1552
+msgid "Marketplace: can build marketplaces, +20% XP"
+msgstr "Может строить рынки, +20% опыта"
 
-#: utils/steppe_amla.cfg:1554
+#: utils/steppe_amla.cfg:1559
 msgid "Teleporter: can build teleporters, +20% XP"
 msgstr "Может строить телепорты, +20% опыта"
 
-#: utils/steppe_amla.cfg:1561
+#: utils/steppe_amla.cfg:1559
+msgid "Build Teleporter"
+msgstr "Построить телепорт"
+
+#: utils/steppe_amla.cfg:1566
+msgid "Build Library"
+msgstr "Построить библиотеку"
+
+#: utils/steppe_amla.cfg:1566
 msgid ""
 "Library: can build libraries (buildings that give experience to adjacent "
 "allies each turn), +20% XP"
@@ -7874,36 +8118,32 @@ msgstr ""
 "Может строить библиотеки (библиотека даёт союзникам немного опыта каждый "
 "ход), +20% опыта"
 
-#: utils/steppe_amla.cfg:1561
-msgid "Build Library"
-msgstr "Построить библиотеку"
-
-#: utils/steppe_amla.cfg:1568
-msgid "Hiding spot: can build hiding spots, +20% XP"
-msgstr "Может строить укрытие, +20% опыта"
-
-#: utils/steppe_amla.cfg:1568
+#: utils/steppe_amla.cfg:1573
 msgid "Build Hiding Spot"
 msgstr "Построить укрытие"
 
-#: utils/steppe_amla.cfg:1594
+#: utils/steppe_amla.cfg:1573
+msgid "Hiding spot: can build hiding spots, +20% XP"
+msgstr "Может строить укрытие, +20% опыта"
+
+#: utils/steppe_amla.cfg:1599
 msgid "Shield attack (12-1 block 50%), +20% XP"
 msgstr "Атака щитом (12-1, блок 50%), +20% опыта"
 
 #. [effect]: type=impact
-#: utils/steppe_amla.cfg:1600
+#: utils/steppe_amla.cfg:1605
 msgid "shield"
 msgstr "щит"
 
-#: utils/steppe_amla.cfg:1643
+#: utils/steppe_amla.cfg:1648
 msgid "+1/2 melee damage, +20% XP"
 msgstr "+1/2 ближнего урона, +20% опыта"
 
-#: utils/steppe_amla.cfg:1662
+#: utils/steppe_amla.cfg:1667
 msgid "+2/2 melee damage, +20% XP"
 msgstr "+2/2 ближнего урона, +20% опыта"
 
-#: utils/steppe_amla.cfg:1682
+#: utils/steppe_amla.cfg:1687
 msgid ""
 "Defense: +10% physical resistances and firststrike, cannot take other paths "
 "after this, +20% XP"
@@ -7911,79 +8151,204 @@ msgstr ""
 "Защита +10% физических сопротивлений и особенность бьет первым, не может "
 "брать другие улучшения после этого, +20% опыта"
 
-#: utils/steppe_amla.cfg:1717
+#: utils/steppe_amla.cfg:1722
 msgid "+3 melee damage axe, +20% XP"
 msgstr "+3 урона на топор, +20% опыта"
 
-#: utils/steppe_amla.cfg:1731
+#: utils/steppe_amla.cfg:1736
 msgid "+2 sling damage, +20% XP"
 msgstr "+2 урона на пращу, +20% опыта"
 
-#: utils/steppe_amla.cfg:1745
+#: utils/steppe_amla.cfg:1750
 msgid "Cunning: skirmisher and concealment abilities, +20% XP"
 msgstr "Хитрость: неуловимость и засада в деревнях, +20% опыта"
 
-#: utils/steppe_amla.cfg:1777
+#: utils/steppe_amla.cfg:1782
 msgid "Feast in his honor! (+8 Max Hp), +20% XP"
 msgstr "Устроить пир в его честь! (+8 макс. ЗД), +20% опыта"
 
-#: utils/steppe_amla.cfg:1790
+#: utils/steppe_amla.cfg:1795
 msgid "Hunt in his honor! (+1 damage), +15% XP"
 msgstr "Устроить охоту в его честь! (+1 урон), +15% опыта"
 
-#: utils/steppe_amla.cfg:1803
+#: utils/steppe_amla.cfg:1808
 msgid "Ascend him to the throne!, -10% XP"
 msgstr "Короновать его! -10% опыта"
 
-#: utils/steppe_amla.cfg:1831 utils/steppe_amla.cfg:1885
-#: utils/steppe_amla.cfg:1924 utils/steppe_amla.cfg:2024
+#: utils/steppe_amla.cfg:1836 utils/steppe_amla.cfg:1890
+#: utils/steppe_amla.cfg:1929 utils/steppe_amla.cfg:2029
 msgid "+10% ranged damage, +20% XP"
 msgstr "+10% дальнего урона, +20% опыта"
 
-#: utils/steppe_amla.cfg:1845
+#: utils/steppe_amla.cfg:1850
 msgid "Faith Healing ability, +20% XP"
 msgstr "Способность святое исцеление, +20% опыта"
 
-#: utils/steppe_amla.cfg:1860
+#: utils/steppe_amla.cfg:1865
 msgid "Illuminates ability, +20% XP"
 msgstr "Способность освещает, +20% опыта"
 
-#: utils/steppe_amla.cfg:1905 utils/steppe_amla.cfg:1962
+#: utils/steppe_amla.cfg:1910 utils/steppe_amla.cfg:1967
 msgid "+10% damage, +20% XP"
 msgstr "+10% урона, +20% XP"
 
-#: utils/steppe_amla.cfg:1938
+#: utils/steppe_amla.cfg:1943
 msgid "Incinerate special on the fire crossbow, +20% XP"
 msgstr "Особенность поджог на арбалет, +20% опыта"
 
-#: utils/steppe_amla.cfg:1975
+#: utils/steppe_amla.cfg:1980
 msgid "Better at mentoring (3 xp per turn), +20% XP"
 msgstr "Опытный наставник (3 опыта за ход), +20% опыта"
 
-#: utils/steppe_amla.cfg:1996
+#: utils/steppe_amla.cfg:2001
 msgid "Even better at mentoring (4 xp per turn), +20% XP"
 msgstr "Умудрённый наставник (4 опыта за ход), +20% опыта"
 
-#: utils/steppe_amla.cfg:2038
+#: utils/steppe_amla.cfg:2043
 msgid ""
 "Better at reducing enemy resistances (15% armor break instead of 10%), +20% "
 "XP"
 msgstr "Улучшенное пробивание брони (15% вместо 10%), +20% опыта"
 
-#: utils/steppe_amla.cfg:2056
+#: utils/steppe_amla.cfg:2061
 msgid ""
 "Even better at reducing enemy resistances (20% armor break instead of 15%), "
 "+20% XP"
 msgstr "Улучшенное пробивание брони II (20% вместо 15%), +20% опыта"
 
-#: utils/steppe_amla.cfg:2075
+#: utils/steppe_amla.cfg:2080
 msgid "Darkens ability, +20% XP"
 msgstr "Способность затемняет, +20% опыта"
 
 #. [time]: id=steppe_illuminated
-#: utils/utils.cfg:79
+#: utils/utils.cfg:66
 msgid "Illuminated"
 msgstr "Освещение"
+
+#~ msgid "gnoll race^WIP: NOT YET TRANSLATED"
+#~ msgstr ""
+#~ "Гноллы - раса прямоходящих гиен из железоносных холмов Гравра. В "
+#~ "древности они были рядом диких племён охотников и рыболовов, живших в "
+#~ "убогих землянках на холмистой саванне своего края, и промышлявших, как и "
+#~ "наги, грабежом. Но если наги грабили торговые пути, что тянутся через "
+#~ "Пустыню между человеческими городами, то гноллы предпочитали ходить в "
+#~ "походы на сами города. У покорных они брали дань (в том числе людьми, "
+#~ "которых ели), а стремившихся сохранить независимость осаждали и брали "
+#~ "штурмом. Не один оазис был захвачен и разграблен толпами гиеноголовых "
+#~ "дикарей, многие некогда процветавшие поселения были стёрты с лица мира и "
+#~ "больше не возродились, а на их руинах остались лишь горы обглоданных "
+#~ "скелетов... Но кое-что гноллам мешало - их раздробленность. Племена, "
+#~ "говорящие, по крайней мере, на трёх десятках непохожих языков, были "
+#~ "слишком горды, чтобы объединяться с кем-то - ведь для объединения нужен "
+#~ "общий лидер, а признать вождём представителя чужого племени значило бы "
+#~ "для гноллов принизить достоинство своего, что они считали недопустимым. "
+#~ "По их мнению, гноллы из других племён годились только в пищу. На этом "
+#~ "неплохо играли города людей, стравливая грозных варваров между собой, "
+#~ "сокращая этим их численность и боевую мощь. Что же до отношения с другими "
+#~ "расами - гноллы считали себя выше всех остальных, и никогда бы не "
+#~ "подчинились чужакам; даже как наёмники они слыли самыми ненадёжными из "
+#~ "всех. В любой момент гнолл может повернуть свой костяной кистень-капкан и "
+#~ "свои когти с клыками на бывшего союзника... Так считалось до того "
+#~ "момента, пока в Гравре не появились под рёв труб из слонового бивня "
+#~ "развевающиеся знамёна змеиного кагана.\n"
+#~ "\n"
+#~ "Земли Гравра каган подарил старой нагской аристократии; по его высочайшей "
+#~ "воле, беки шипящих вместе с собранными ими отрядами из вассальных нагов, "
+#~ "усиленные нукелави и представителями кагана - змееглавыми, вошли в "
+#~ "пределы гнольских холмов, тут же приступив к обустройству там крепостей. "
+#~ "Гноллы отреагировали на это, как на вторжение, и попытались дать "
+#~ "пришельцам отпор. Ополчения гиеноголовых обрушивались на чужаков, с "
+#~ "гневным воем вожди вызывали вражьих командиров на поединок, над чем беки "
+#~ "лишь смеялись со своих паланкинов, и, зачастую даже не делая перерыв в "
+#~ "строительных работах, бросали в бой нукеллави, что втаптывали пеших "
+#~ "дикарей в землю и обращали в бегство... \n"
+#~ "\n"
+#~ "Но не все гноллы с раздражением отреагировали на пришествие чужаков. "
+#~ "Солидная часть вождей (в основном тех, чьи земли не затронуло "
+#~ "строительство крепостей каганата, а также тех, кто был непосредственным "
+#~ "врагом враждебного змеям племени) вступили с допрекрасного храбрыми, как "
+#~ "выразился один из них, иноземцами в сношения. Любое посольство гнолльских "
+#~ "племён, что пришло не объявить войну, но поинтересоваться, зачем "
+#~ "чужестранцы здесь объявились, ласково встречалось нагскими беками, и те "
+#~ "объясняли варварам, что не меч они принесли, но мир, знакомили гнолльских "
+#~ "послов с предоставленными им во пользование артефактами змееглавых - "
+#~ "Компасами земли, что способны находить жилы железной руды и необходимый "
+#~ "для выплавки стали уголь, выражали надежды на взаимовыгодное "
+#~ "сотрудничество. Те из вождей, что на это сотрудничество пошли, здорово "
+#~ "выиграли - предоставив рабочих на добычу железа, они получили доступ к "
+#~ "железному, а потом и стальному оружию. Привлечённые к обороне крепостей "
+#~ "от своих более принципиальных собратьев племена восприняли от нагов "
+#~ "боевые построения, которыми стали успешно пользоваться. \n"
+#~ "\n"
+#~ "Чем активнее шло строительство змеиных крепостей, добыча железа и "
+#~ "выплавка стали, тем жарче разгоралось пламя войны в Гравре. Три из "
+#~ "двенадцати нововозведённых крепостей нагов пали, и их сгоревшие остовы "
+#~ "были растоптаны когтистыми лапами свирепых варваров. Тогда каган объявил "
+#~ "самого активного из посланных в эту страну аристократов беклярбеком, "
+#~ "установив его в иерархии над прочими беками, сделав более организованной "
+#~ "систему обороны и управления этой гнолльской окраины. При дворе "
+#~ "беклярбека нашли себя многие вожди гиеноголовых, всё более включавшиеся в "
+#~ "систему образующегося государства. И уже через девять лет с начала "
+#~ "экспансии каганата последний сопротивляющийся предводитель дикарей был "
+#~ "убит, а все гноллы так или иначе стали подданными державы змееглавов как "
+#~ "воины, рудокопы, чиновники и даже фермеры - змееглавы познакомили гноллов "
+#~ "с земледелием, скотоводством, открыли пригодные для этого виды животных и "
+#~ "растений, и гнолльские фермеры стали основывать и наращивать свои "
+#~ "хозяйства. И с окончанием объединения края вышел новый указ кагана. "
+#~ "Племенные ополчения гноллов были преобразованы в одну единую наёмную "
+#~ "армию под начальством беклярбека, которой из государственной казны за "
+#~ "службу выплачивалось жалование, и в которой верные и доблестные воины не "
+#~ "просто могли, а должны были получать офицерские звания, а с ними ещё "
+#~ "больше денег и власть. \n"
+#~ "\n"
+#~ "Блистающие сталью многотысячные гиеноголовые легионы замаршировали под "
+#~ "начальством гнольских офицеров по улицам городов новой страны, вчерашние "
+#~ "дикари, обладавшие живым умом, восприняли дисциплину, денежные отношения, "
+#~ "понятие карьерного роста и даже понятие патриотизма, становясь всё более "
+#~ "цивилизованными. Становясь всё более явной, всё более страшной новой "
+#~ "когтистой рукой кагана. И тогда-то с удивлением наблюдавший за всем этим "
+#~ "окрестный мир запаниковал. Человеческие города послали в столицу Змеиного "
+#~ "каганата послов, дабы вопросить - зачем кагану нужны эти войска у их "
+#~ "границ? На это владыка пустыни ответил: подчинитесь, и тогда не узнаете, "
+#~ "зачем они нужны. Принёсшие эти вести послы всколыхнули подъём гордости в "
+#~ "человеческих городах, которые объединились в альянс для обороны от "
+#~ "недружественного соседа. Змееглавы же объявили это союзом для нападения "
+#~ "на каганат, мобилизовали всех вассалов нагских князей, усилили их "
+#~ "отрядами монстров-нукеллави, соединили с гнолльской армией и начали "
+#~ "нашествие на человеческие города, которые все до одного пали всего лишь "
+#~ "за пару лет. Человеческое население было порабощено, пассионарии "
+#~ "вырезаны, и над всем Югом взвился стяг кровавой змеиной оккупации...\n"
+#~ "\n"
+#~ "Это стало первой компанией гнолльских легионов кагана, которые в ней "
+#~ "отлично себя проявили. Теперь же их стальные кистень-капканы направлены "
+#~ "волей кагана на Север, на новые земли, ради приносящей повышение славы, "
+#~ "ради приносящих награды побед... И ради приносящих удовольствие пиршеств "
+#~ "телами поверженных врагов. В конце концов - ради мудрого кагана, который "
+#~ "для истинного гнолла ныне - первый после Бога!"
+
+#~ msgid "-8g"
+#~ msgstr "-8 золотых"
+
+#~ msgid "Beklarbekh (which means "
+#~ msgstr ""
+#~ "Беклярбек (что означает \"бек всех беков\") - наследственная должность "
+#~ "главы народа нагов. Когда-то предки нынешних беклярбеков были первым "
+#~ "княжеским родом нагов, что присягнули кагану змееглавых, и их оазис стал "
+#~ "плацдармом для войск рождающегося Каганата. Теперь беклярбеки - особо "
+#~ "отмеченные милостью Кагана сановники, которые судят своих соплеменников - "
+#~ "нагов, управляют гигантскими земельными владениями, сплачивают ряды "
+#~ "народа под каганским знаменем во время войн. По своим функциям беклярбек, "
+#~ "также имеющий в подчинении большой регион и несколько полков, сходен со "
+#~ "змееглавыми туменбаши, но в иерархии Каганата является для них \"младшим "
+#~ "братом\". Отличиться во главе своих частей на войне для беклярбека - "
+#~ "хороший способ поставить своё имя в один ряд с великими предками и "
+#~ "обрести милость в глазах Кагана. При этом, будучи обладателями весьма "
+#~ "крупных физических габаритов и наикачественнейшей брони стоимостью в "
+#~ "городок, беклярбеки, как и подобает ведущим в бой своим примером иерархам "
+#~ "Каганата, не брезгуют вламываться в самые кровавые мясорубки. Уничтожая "
+#~ "врагов ударами пернача и принимая их удары на щит, благородный беклярбек "
+#~ "не боится смерти - каган если что найдёт ему достойную замену среди "
+#~ "разветвлённой династии своих первых вассалов и вернейших рабов."
 
 #~ msgid "WIP: NOT YET TRANSLATED"
 #~ msgstr ""
