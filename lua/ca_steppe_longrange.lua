@@ -5,9 +5,9 @@ local M = wesnoth.map
 local T = wml.tag
 local debug_utils = wesnoth.require "~add-ons/1The_Great_Steppe_Era/lua/debug_utils.lua"
 
+--local AIVAR = wesnoth.require "ai/micro_ais/micro_ai_unit_variables.lua"
 
 local ca_longrange = {}
-local longrange_unit
 local target
 local rand
 
@@ -19,8 +19,27 @@ local rand
 -- Also unload units onto best hexes adjacent to landing site
 
 function wesnoth.custom_synced_commands.longrange_attack(cfg)
---    local unit = wesnoth.get_unit(cfg.x, cfg.y)
-    wesnoth.fire_event("steppe_longrangedattack", cfg.x, cfg.y, cfg.x2, cfg.y2, {})
+    local unit = wesnoth.get_units {x = cfg.x, y = cfg.y}
+
+    wesnoth.message("longrange unit coordinates: "..cfg.x.." "..cfg.y)
+    wesnoth.message("target unit coordinates: "..cfg.x2.." "..cfg.y2)
+
+--    wesnoth.fire_event("steppe_longrangedattack", cfg.x, cfg.y, cfg.x2, cfg.y2, {})
+
+    wesnoth.units.to_map({ side = wesnoth.current.side, type = "Swordsman", moves = 2 }, cfg.x2 + 1, cfg.y2)
+
+end
+
+function wesnoth.custom_synced_commands.synced_set_var(cfg)
+    wesnoth.set_variable(cfg.var_name,cfg.value)
+end
+
+function steppe_synced_set_var(var_name,value)
+    local cfg = {
+        var_name = var_name,
+        value = value
+    }
+    wesnoth.sync.invoke_command("synced_set_var", cfg)
 end
 
 
@@ -39,6 +58,8 @@ function ca_longrange:evaluation()
     local units = wesnoth.get_units { side = wesnoth.current.side, { "has_attack", { special = "steppe_longrange" }} }
 
 -- TODO: add a check so that longranged attacks can't be used on units adjacent to the longrange unit
+
+    local tmp_unit
 
     for i,u in ipairs(units) do
 --        wesnoth.message("longrange unit detected")
@@ -72,11 +93,23 @@ function ca_longrange:evaluation()
                 end
             
             if will_attack == true then
-                longrange_unit = u
-                target = enemies[rand]
+
+--                debug_utils.dbms(u, true, "unit", true)
+
+--                AIVAR.insert_mai_unit_variables(u, "steppe_longrange", {})
+
+                steppe_synced_set_var("steppe_ca_longrange_id",u.id)
+
+--                debug_utils.dbms(enemies, true, "target", true)
+
+--                wesnoth.message(enemies[rand].id)
+
+                steppe_synced_set_var("steppe_ca_longrange_target",enemies[rand].id)
 
 --                debug_utils.dbms(target, true, "tmp build loc", true)
-                return 300000
+                if wesnoth.get_variable("steppe_ca_longrange_id") ~= nil then
+                    return 300000
+                end
             end
         end
     end
@@ -89,20 +122,48 @@ function ca_longrange:execution()
 
 --    wesnoth.message("the longrange ai is executed for side " .. wesnoth.current.side)
 
+
+        local longrange_unit = wesnoth.get_unit(wesnoth.get_variable("steppe_ca_longrange_id"))
+
+        local target = wesnoth.get_unit(wesnoth.get_variable("steppe_ca_longrange_target"))
+
+--        wesnoth.message(target.id)
+
+
+
+--        debug_utils.dbms(target, true, "target", true)
+
+--        for i,u in ipairs(units) do
+--
+--            if AIVAR.get_mai_unit_variables(u, "steppe_longrange") then
+--                longrange_unit = u
+--                AIVAR.delete_mai_unit_variables(u, "steppe_longrange")
+--
+--            end
+--
+--        end
+
         local orig_attacks_left = longrange_unit.attacks_left
+
+--        wesnoth.message("longrange unit coordinates: "..longrange_unit.x.." "..longrange_unit.y)
+--        wesnoth.message("target unit coordinates: "..target.x.." "..target.y)
 
 --        wesnoth.message("longrange unit transformed")
             local command_data = { x = longrange_unit.x, y = longrange_unit.y, x2 = target.x, y2 = target.y}
-            wesnoth.invoke_synced_command("longrange_attack", command_data)
+            wesnoth.sync.invoke_command("longrange_attack", command_data)
 
 --local new_species = longrange_get_species(longrange_unit)
 
 
-          if longrange_unit.attacks_left < orig_attacks_left then
-             steppe_force_gamestate_change(ai)
-          end
+--            if longrange_unit.attacks_left < orig_attacks_left then
+--                steppe_force_gamestate_change(ai)
+--            end
 
 --        wesnoth.message("longrange unit not found")
+
+--        steppe_synced_set_var("steppe_ca_longrange_id",nil)--clear the variable
+
+--        steppe_synced_set_var("steppe_ca_longrange_target",nil)--clear the variable
 
 end
 
